@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { signOut } from "next-auth/react";
 import { User } from "next-auth";
 
+
 import Avatar from "../Avatar";
 import MenuItem from "./MenuItem";
 import Menu from "@/components/Menu";
@@ -24,6 +25,14 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
     router.push(url);
   };
 
+
+
+   // Function to navigate to the home page
+   const goToHome = () => {
+    router.push("../");
+  };
+  
+  
   return (
     <div className="relative">
       <div className="flex flex-row items-center gap-3">
@@ -59,14 +68,29 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
                     />
                   ))}
 
+
+  
+     
+
+
                   <Modal.Trigger name="share">
                     <MenuItem label="Add listing" />
                   </Modal.Trigger>
                   <hr />
+                  
                   <MenuItem label="Log out" onClick={signOut} />
+
                 </>
               ) : (
                 <>
+                  <button
+          type="button"
+          className="text-sm font-bold py-3 px-4 rounded-full hover:bg-neutral-100 transition cursor-pointer text-[#585858]"
+          onClick={goToHome} // Added onClick handler
+        >
+          Home
+        </button>
+
                   <Modal.Trigger name="Login">
                     <MenuItem label="Log in" />
                   </Modal.Trigger>
@@ -75,11 +99,16 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
                     <MenuItem label="Sign up" />
                   </Modal.Trigger>
                 </>
+
+
+
               )}
             </Menu.List>
           </Menu>
+       
+
           <Modal.Window name="Login">
-            <AuthModal name="Login" />
+            <AuthModal name="Logn" />
           </Modal.Window>
           <Modal.Window name="Sign up">
             <AuthModal name="Sign up" />
@@ -87,10 +116,25 @@ const UserMenu: React.FC<UserMenuProps> = ({ user }) => {
           <Modal.Window name="share">
             <RentModal />
           </Modal.Window>
+       
         </Modal>
+
+
+        
       </div>
+
+
+
+      
     </div>
+
+
+
   );
+
+  
 };
+
+
 
 export default UserMenu;
