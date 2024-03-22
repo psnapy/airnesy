@@ -23,7 +23,7 @@ import { createListing } from "@/services/listing";
 const steps = {
   "0": "category",
   "1": "location",
-  "2": "guestCount",
+  "2": "roomCount",
   "3": "image",
   "4": "title",
   "5": "price",
@@ -55,7 +55,7 @@ const RentModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
     defaultValues: {
       category: "",
       location: null,
-      guestCount: 0,
+
       bathroomCount: 0,
       roomCount: 0,
       image: "",
