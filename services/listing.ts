@@ -128,7 +128,7 @@ export const createListing = async (data: { [x: string]: any }) => {
   const {
     category,
     location: { region, label: country, latlng },
-    guestCount,
+    
     bathroomCount,
     roomCount,
     image: imageSrc,
@@ -154,7 +154,6 @@ export const createListing = async (data: { [x: string]: any }) => {
       category,
       roomCount,
       bathroomCount,
-      guestCount,
       country,
       region,
       latlng,
