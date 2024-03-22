@@ -26,14 +26,43 @@ body {
   inline-size: 100%;
 }
 
+
+
+
 .main-container {
   @apply max-w-[1720px] mx-auto xl:px-0 px-4;
+
+  /* Remove padding on small screens */
+  padding-left: 0;
+  padding-right: 0;
 }
+
+/* Apply padding on large screens */
+@media (min-width: 640px) {
+  .main-container {
+    padding-left: 2rem; /* Adjust as needed */
+    padding-right: 2rem; /* Adjust as needed */
+  }
+}
+
 
 
 .main2-container {
   @apply max-w-[1320px] mx-auto xl:px-0 px-4;
 }
+
+
+@media (max-width: 640px) {
+  .rounded-lg {
+    border-radius: 0; /* Remove rounded corners for small screens */
+  }
+}
+
+
+
+
+
+
 .swiper-wrapper {
   @apply md:gap-2 gap-1 justify-between;
 }
@@ -63,6 +92,12 @@ body {
   @apply w-2;
 }
 
+/* Hide scrollbar for screens below 640 pixels */
+@media (max-width: 639px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
 ::-webkit-scrollbar-thumb {
   @apply bg-[#808080] transition-all duration-300 rounded-[25px];
 }

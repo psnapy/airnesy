@@ -51,24 +51,26 @@ const ListingCard: React.FC<ListingCardProps> = ({
       </div>
       <Link href={`/listings/${data.id}`} className="col-span-1 cursor-pointer">
         <div className="flex flex-col gap-1 w-full">
-          <div className=" overflow-hidden md:rounded-xl rounded-md">
+          <div className=" overflow-hidden ">
             <div className="aspect-[1/0.95] relative bg-gray-100">
               <Image
                 imageSrc={data.imageSrc}
                 fill
                 alt={data.title}
                 effect="zoom"
+                className=" rounded-lg  md:rounded-xl"
               />
             </div>
           </div>
-          <span className="font-semibold text-[16px] mt-[4px]">
+          
+          <span className="font-semibold text-[16px] mt-[4px] pl-4">
             {data?.region}, {data?.country}
           </span>
-          <span className="font-light text-neutral-500 text-sm">
+          <span className="font-light text-neutral-500 text-sm pl-4">
             {reservationDate || data.category}
           </span>
 
-          <div className="flex flex-row items-baseline gap-1">
+          <div className="flex flex-row items-baseline gap-1 pl-4">
             <span className="font-bold text-[#444] text-[14px]">
               $ {formatPrice(price)}
             </span>
