@@ -39,6 +39,8 @@ const PropertiesPage = async () => {
               key={listing.id}
               data={listing}
               hasFavorited={hasFavorited}
+
+            roomCount={listing.roomCount}
             />
           );
         })}

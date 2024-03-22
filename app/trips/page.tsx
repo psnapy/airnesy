@@ -45,6 +45,8 @@ const TripsPage = async () => {
               data={data}
               reservation={reservation}
               hasFavorited={hasFavorited}
+
+            roomCount={listing.roomCount}
             />
           );
         })}

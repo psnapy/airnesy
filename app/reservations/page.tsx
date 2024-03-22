@@ -40,6 +40,8 @@ const ReservationPage = async () => {
               data={data}
               reservation={reservation}
               hasFavorited={hasFavorited}
+
+            roomCount={listing.roomCount}
             />
           );
         })}

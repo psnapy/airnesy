@@ -8,6 +8,7 @@ import { useLoadMore } from "@/hooks/useLoadMore";
 
 interface LoadMoreProps {
 
+  
     nextCursor: string;
     fnArgs?: { [key: string]: string | undefined };
     queryFn: (args: Record<string, string>) => Promise<{
