@@ -52,7 +52,6 @@ model Listing {
   category      String
   roomCount     Int
   bathroomCount Int
-  guestCount    Int
   userId        String   @db.ObjectId
   price         Int
   country       String?
