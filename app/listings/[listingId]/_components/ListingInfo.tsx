@@ -11,7 +11,7 @@ interface ListingInfoProps {
     name: string | null;
   };
   description: string;
-  guestCount: number;
+  
   roomCount: number;
   bathroomCount: number;
   category: Category | undefined;
@@ -25,7 +25,7 @@ const Map = dynamic(() => import("@/components/Map"), {
 const ListingInfo: React.FC<ListingInfoProps> = ({
   user,
   description,
-  guestCount,
+  
   roomCount,
   bathroomCount,
   category,

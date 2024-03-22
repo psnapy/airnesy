@@ -29,7 +29,7 @@ const ListingPage = async ({ params: { listingId } }: { params: IParams }) => {
     price,
     description,
     roomCount,
-    guestCount,
+    
     bathroomCount,
     latlng,
     reservations,
@@ -61,7 +61,7 @@ const ListingPage = async ({ params: { listingId } }: { params: IParams }) => {
           category={category}
           description={description}
           roomCount={roomCount}
-          guestCount={guestCount}
+          
           bathroomCount={bathroomCount}
           latlng={latlng}
         />
