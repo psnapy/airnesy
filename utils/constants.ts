@@ -24,7 +24,7 @@ import { MdHome, MdHouse, MdOtherHouses, MdOutlineVilla } from 'react-icons/md';
 export const categories = [
 
   {
-    label: 'Appartment Flat ',
+    label: 'Appartment ',
     icon: FaBuilding,
     description: 'This property is an Appartment building!'
   },
@@ -35,7 +35,7 @@ export const categories = [
     description: 'This property is a bedsitter!'
   },
   {
-    label: 'Single room',
+    label: 'Single-room',
     icon: FaDoorOpen,
     description: 'This property is a single room!'
   },
@@ -48,7 +48,7 @@ export const categories = [
     description: 'This property is a mansion!',
   },
   {
-    label: 'Beachhouse',
+    label: 'Beach-house',
     icon: TbBeach,
     description: 'This property is close to the beach!',
   },
@@ -59,14 +59,14 @@ export const categories = [
   },
 
   {
-    label: 'Tiny house',
+    label: 'Tiny-house',
     icon: GiCube,
     description: 'This is property is tiny house!'
   },
 
 
   {
-    label: 'Single family',
+    label: 'Single-family',
     icon: MdHouse,
     description: 'This property is a modern villa!'
   },
@@ -87,12 +87,12 @@ export const categories = [
     description: 'This property is a carbin house!'
   },
   {
-    label: 'Farm house',
+    label: 'Farm-house',
     icon: FaTractor,
     description: 'This property is a farm house!'
   },
   {
-    label: 'Town house',
+    label: 'Town-house',
     icon: TbBuildingCommunity,
     description: 'This property is a townhouse!'
   },

@@ -7,15 +7,18 @@ import ListingCard, { ListingSkeleton } from "./ListingCard";
 import { useLoadMore } from "@/hooks/useLoadMore";
 
 interface LoadMoreProps {
-  nextCursor: string;
-  fnArgs?: { [key: string]: string | undefined };
-  queryFn: (args: Record<string, string>) => Promise<{
-    listings: Listing[];
-    nextCursor: null | string;
-  }>;
-  queryKey: any[];
-  favorites: string[];
-}
+
+    nextCursor: string;
+    fnArgs?: { [key: string]: string | undefined };
+    queryFn: (args: Record<string, string>) => Promise<{
+      listings: Listing[];
+      nextCursor: null | string;
+    }>;
+    queryKey: any[];
+    favorites: string[];
+  }
+  
+
 
 const LoadMore: FC<LoadMoreProps> = ({
   nextCursor,
@@ -48,9 +51,11 @@ const LoadMore: FC<LoadMoreProps> = ({
               listing: Listing & {
                 reservation?: {
                   id: string;
+
                   startDate: Date;
                   endDate: Date;
                   totalPrice: number;
+                
                 };
               }
             ) => {
@@ -61,6 +66,8 @@ const LoadMore: FC<LoadMoreProps> = ({
                   data={listing}
                   hasFavorited={hasFavorited}
                   reservation={listing?.reservation}
+                  roomCount={listing.roomCount}
+                 
                 />
               );
             }

@@ -34,12 +34,14 @@ const Home: FC<HomeProps> = async ({ searchParams }) => {
         return (
           <ListingCard
             key={listing.id}
+            
             data={listing}
             hasFavorited={hasFavorited}
+            roomCount={listing.roomCount}
           />
         );
 
-
+        
        
 
 

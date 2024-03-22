@@ -3,27 +3,35 @@ import Link from "next/link";
 import { format } from "date-fns";
 import { Listing } from "@prisma/client";
 import Skeleton from "react-loading-skeleton";
+import ListingProfileInfo from "@/app/listings/[listingId]/_components/ListingProfileInfo";
 
 import HeartButton from "./HeartButton";
 import Image from "./Image";
 import { formatPrice } from "@/utils/helper";
 import ListingMenu from "./ListingMenu";
+import { stringify } from "querystring";
 
 interface ListingCardProps {
+
   data: Listing;
   reservation?: {
     id: string;
     startDate: Date;
     endDate: Date;
     totalPrice: number;
-  };
+  }
+  roomCount: number;
   hasFavorited: boolean;
+  
+  
 }
 
 const ListingCard: React.FC<ListingCardProps> = ({
   data,
   reservation,
+  roomCount,
   hasFavorited,
+
 }) => {
   const price = reservation ? reservation.totalPrice : data?.price;
 
@@ -37,6 +45,9 @@ const ListingCard: React.FC<ListingCardProps> = ({
   return (
     <div className="relative">
       <div className="absolute top-0 left-0 p-3 flex items-center justify-between w-full">
+
+   
+
         <div className="z-5">
           <ListingMenu id={reservation?.id || data.id} />
         </div>
@@ -49,6 +60,9 @@ const ListingCard: React.FC<ListingCardProps> = ({
           />
         </div>
       </div>
+      
+
+  
       <Link href={`/listings/${data.id}`} className="col-span-1 cursor-pointer">
         <div className="flex flex-col gap-1 w-full">
           <div className=" overflow-hidden ">
@@ -66,15 +80,20 @@ const ListingCard: React.FC<ListingCardProps> = ({
           <span className="font-semibold text-[16px] mt-[4px] pl-4">
             {data?.region}, {data?.country}
           </span>
+
+       
           <span className="font-light text-neutral-500 text-sm pl-4">
-            {reservationDate || data.category}
+
+           <span> {roomCount} Bedroom   </span>
+            
+            { data.category}
           </span>
 
           <div className="flex flex-row items-baseline gap-1 pl-4">
             <span className="font-bold text-[#444] text-[14px]">
               $ {formatPrice(price)}
             </span>
-            {!reservation && <span className="font-light">month</span>}
+            {!reservation && <span className="font-light">/month</span>}
           </div>
         </div>
       </Link>

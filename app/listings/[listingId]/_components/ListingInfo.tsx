@@ -42,8 +42,8 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
           className="flex flex-row items-center gap-4 font-light text-neutral-700
           "
         >
-          <span>{guestCount} guests</span>
-          <span>{roomCount} rooms</span>
+          
+          <span>{roomCount} Bedrooms</span>
           <span>{bathroomCount} bathrooms</span>
         </div>
       </div>

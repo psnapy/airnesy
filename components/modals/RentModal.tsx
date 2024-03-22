@@ -53,11 +53,11 @@ const RentModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
     getValues,
   } = useForm<FieldValues>({
     defaultValues: {
-      category: "Beach",
+      category: "",
       location: null,
-      guestCount: 1,
-      bathroomCount: 1,
-      roomCount: 1,
+      guestCount: 0,
+      bathroomCount: 0,
+      roomCount: 0,
       image: "",
       price: "",
       title: "",
