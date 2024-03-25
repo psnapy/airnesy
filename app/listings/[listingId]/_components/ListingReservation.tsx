@@ -39,7 +39,7 @@ const ListingReservation: React.FC<ListingReservationProps> = ({
 
    <div>
 <p className="p-4">
-  Contact:
+  Contact:254 7...
 </p>
 
    </div>
@@ -49,7 +49,7 @@ const ListingReservation: React.FC<ListingReservationProps> = ({
         <Button
           disabled={isLoading}
           onClick={onSubmit}
-          className="flex flex-row items-center justify-center h-[42px] "
+          className="flex flex-row items-center justify-center h-[42px]  rounded-xl"
           size="large"
         >
           {isLoading ? <SpinnerMini /> : <span>Book a Tour</span>}
