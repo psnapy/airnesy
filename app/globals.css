@@ -27,7 +27,7 @@ body {
 }
 
 .aspect {
-  @apply  aspect-[1/0.5] ;
+  @apply  aspect-[1/0.95] ;
 
   /* Remove padding on small screens */
   
@@ -35,7 +35,7 @@ body {
 
 @media (min-width: 640px) {
   .aspect {
-    @apply aspect-[1/0.95] ;  /* Adjust as needed */
+    @apply aspect-[1/0.5] ;  /* Adjust as needed */
   }
 }
 
