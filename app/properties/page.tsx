@@ -29,7 +29,7 @@ const PropertiesPage = async () => {
   }
 
   return (
-    <section className="main-container pl-2">
+    <section className="main-container ml-2 mr-2 ">
       <Heading title="Properties" subtitle="List of your properties" backBtn/>
       <div className=" mt-8 md:mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 md:gap-8 gap-4">
         {listings.map((listing) => {
