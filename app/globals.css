@@ -60,6 +60,14 @@ body {
 
 
 
+.main-container3 {
+  @apply max-w-[1720px] mx-auto xl:px-0 px-4;
+
+  /* Remove padding on small screens */
+  padding-left: 2;
+  padding-right: 2;
+}
+
 
 
 
