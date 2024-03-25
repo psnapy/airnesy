@@ -35,7 +35,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
 
         <div style={{ display: 'flex' }}className="
           w-full
-          h-[60vh]
+          h-full
           overflow-hidden 
           rounded-xl
           relative
@@ -44,7 +44,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
       {/* Left Div */}
       <div style={{ width: '75%',marginRight: '1%' }}className="
           w-full
-          h-[60vh]
+          h-full
           overflow-hidden 
           
           relative
@@ -63,7 +63,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
         {/* Nested Divs */}
         <div style={{ height: '25%', marginBottom: '2%'  }}className="
           w-full
-          h-[60vh]
+          h-full
           overflow-hidden 
           
           relative
@@ -79,7 +79,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
         </div>
         <div style={{ height: '25%', marginBottom: '2%' }}className="
           w-full
-          h-[60vh]
+          h-full
           overflow-hidden 
           
           relative
@@ -94,7 +94,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
         </div>
         <div style={{ height: '25%', marginBottom: '2%' }}className="
           w-full
-          h-[60vh]
+          h-full
           overflow-hidden 
           
           relative
@@ -109,7 +109,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
         </div>
         <div style={{ height: '25%', marginBottom: '2%' }}className="
           w-full
-          h-[60vh]
+          h-full
           overflow-hidden 
           
           relative
