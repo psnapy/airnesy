@@ -47,14 +47,20 @@ body {
 
 
 
-@media (max-width: 640px) {
-   @apply  mx-auto xl:px-0 px-0;
+@media (max-width: 640px   ) {
+  
+  .container {
+    padding-left: 0; /* Remove left padding */
+    padding-right: 0; /* Remove right padding */
+  }
+
 
   .rounded-xl {
-    border-radius: 0; /* Remove rounded corners for small screens */
-  
-   
+    border-radius: 0; /* Remove rounded corners for small screens */ 
   }
+
+ 
+
 }
 
 
