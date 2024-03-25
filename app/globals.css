@@ -41,8 +41,7 @@ body {
 
 
 .container {
-  @apply max-w-[1220px] mx-auto xl:px-0 px-4;
-
+  @apply max-w-[1220px] mx-auto xl:px-0 px-0;
  
 }
 
@@ -52,8 +51,7 @@ body {
   .rounded-lg {
     border-radius: 0; /* Remove rounded corners for small screens */
 
-    padding-left: 0;
-    padding-right: 0;
+   
   }
 }
 
