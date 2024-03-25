@@ -48,7 +48,7 @@ body {
 
 
 .main2-container {
-  @apply max-w-[1320px] mx-auto xl:px-0 px-4;
+  @apply max-w-[1220px] mx-auto xl:px-0 px-4;
 }
 
 
