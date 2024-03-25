@@ -35,7 +35,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
 
         <div style={{ display: 'flex' }}className="
           w-full
-          h-full
+          h-[60vh]
           overflow-hidden 
           rounded-xl
           relative
