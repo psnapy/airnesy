@@ -50,14 +50,10 @@ body {
 @media (max-width: 640px   ) {
   
   .container {
-    padding-left: 0; /* Remove left padding */
-    padding-right: 0; /* Remove right padding */
+    padding-left: 4; /* Remove left padding */
+    padding-right: 4; /* Remove right padding */
   }
 
-
-  .rounded-xl {
-    border-radius: 0; /* Remove rounded corners for small screens */ 
-  }
 
  
 
