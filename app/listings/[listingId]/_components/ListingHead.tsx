@@ -29,10 +29,105 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
       <div
         className={`w-full md:h-[620px] sm:h-[280px] bg-gray-100 h-[260px] overflow-hidden  rounded-xl relative transition duration-300`}
       >
-        <Image imageSrc={image} fill className={`object-cover`} alt={title} />
-        <div className="absolute top-5 right-5">
-          <HeartButton listingId={id} hasFavorited={hasFavorited} />
+        
+
+
+
+
+
+        <div style={{ display: 'flex' }}className="
+          w-full
+          h-[60vh]
+          overflow-hidden 
+          rounded-xl
+          relative
+        "  >
+      {/* Left Div */}
+      <div style={{ width: '75%',marginRight: '1%' }}className="
+          w-full
+          h-[60vh]
+          overflow-hidden 
+          
+          relative
+        "  >
+        <Image
+         imageSrc={image}
+        
+          fill
+          className="object-cover w-full"
+          alt="Image"
+        />
+      </div>
+
+      {/* Right Div */}
+      <div style={{ width: '25%',  }}>
+        {/* Nested Divs */}
+        <div style={{ height: '25%', marginBottom: '2%'  }}className="
+          w-full
+          h-[60vh]
+          overflow-hidden 
+          
+          relative
+        "  >
+        <Image
+         imageSrc={image}
+        
+          fill
+          className="object-cover w-full"
+          alt="Image"
+        />
+          
         </div>
+        <div style={{ height: '25%', marginBottom: '2%' }}className="
+          w-full
+          h-[60vh]
+          overflow-hidden 
+          
+          relative
+        "  >
+        <Image
+         imageSrc={image}
+        
+          fill
+          className="object-cover w-full"
+          alt="Image"
+        />
+        </div>
+        <div style={{ height: '25%', marginBottom: '2%' }}className="
+          w-full
+          h-[60vh]
+          overflow-hidden 
+          
+          relative
+        "  >
+        <Image
+         imageSrc={image}
+        
+          fill
+          className="object-cover w-full"
+          alt="Image"
+        />
+        </div>
+        <div style={{ height: '25%', marginBottom: '2%' }}className="
+          w-full
+          h-[60vh]
+          overflow-hidden 
+          
+          relative
+        "  >
+        <Image
+         imageSrc={image}
+        
+          fill
+          className="object-cover w-full"
+          alt="Image"
+        />
+        </div>
+      </div>
+    </div>
+
+
+
       </div>
     </>
   );
