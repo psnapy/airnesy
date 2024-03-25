@@ -14,7 +14,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Airnesy",
   description:
-    "Your Ultimate Home and Proprty Finder. Discover a world of endless property listings and find your dream home in one click.",
+    "Your Ultimate Home and Proprty Finder. Discover a world of endless property listings and find your dream home with one click.",
 };
 
 export default function RootLayout({
