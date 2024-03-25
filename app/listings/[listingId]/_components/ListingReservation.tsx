@@ -38,7 +38,7 @@ const ListingReservation: React.FC<ListingReservationProps> = ({
       <hr />
 
    <div>
-<p>
+<p className="p-2">
   Contact:
 </p>
 
