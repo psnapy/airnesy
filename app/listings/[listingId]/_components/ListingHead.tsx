@@ -35,9 +35,10 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
 
         <div style={{ display: 'flex' }}className="
           w-full
-          h-[60vh]
+        
           overflow-hidden 
           rounded-xl
+          aspect-[1/0.5] 
           relative
            transition duration-300`
         "  >
