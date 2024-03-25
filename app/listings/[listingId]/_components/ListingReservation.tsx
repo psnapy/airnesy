@@ -49,7 +49,7 @@ const ListingReservation: React.FC<ListingReservationProps> = ({
           className="flex flex-row items-center justify-center h-[42px] "
           size="large"
         >
-          {isLoading ? <SpinnerMini /> : <span>Reserve</span>}
+          {isLoading ? <SpinnerMini /> : <span>Book Tour</span>}
         </Button>
       </div>
       <hr />
