@@ -38,7 +38,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
         
           overflow-hidden 
           rounded-xl
-          aspect-[1/0.5] 
+          aspect-[1/0.95] 
           relative
            transition duration-300`
         "  >
