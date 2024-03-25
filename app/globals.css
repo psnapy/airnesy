@@ -26,6 +26,20 @@ body {
   inline-size: 100%;
 }
 
+.aspect {
+  @apply  aspect-[1/0.5] ;
+
+  /* Remove padding on small screens */
+  
+}
+
+@media (min-width: 640px) {
+  .aspect {
+    @apply aspect-[1/0.95] ;  /* Adjust as needed */
+  }
+}
+
+
 
 
 
