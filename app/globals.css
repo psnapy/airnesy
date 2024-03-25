@@ -40,6 +40,22 @@ body {
 }
 
 
+.container {
+  @apply max-w-[1220px] mx-auto xl:px-0 px-4;
+
+ 
+}
+
+
+
+@media (max-width: 640px) {
+  .rounded-lg {
+    border-radius: 0; /* Remove rounded corners for small screens */
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 
 
