@@ -26,9 +26,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
   return (
     <>
       <Heading title={title} subtitle={`${region}, ${country}`} backBtn/>
-      <div
-        className={`w-full md:h-[620px] sm:h-[280px] bg-gray-100 h-[260px]   rounded-xl relative transition duration-300`}
-      >
+      
         
 
 
@@ -41,6 +39,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
           overflow-hidden 
           rounded-xl
           relative
+           transition duration-300`
         "  >
       {/* Left Div */}
       <div style={{ width: '75%',marginRight: '1%' }}className="
@@ -128,7 +127,7 @@ const ListingHead: React.FC<ListingHeadProps> = async ({
 
 
 
-      </div>
+      
     </>
   );
 };
