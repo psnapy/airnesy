@@ -118,7 +118,7 @@ export const menuItems = [
   },
 
   {
-    label: "My trips",
+    label: "My tours",
     path: "/trips",
   },
   {
@@ -126,7 +126,7 @@ export const menuItems = [
     path: "/favorites",
   },
   {
-    label: "My reservations",
+    label: "My bookings",
     path: "/reservations",
   },
   {

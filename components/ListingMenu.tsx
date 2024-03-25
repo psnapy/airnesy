@@ -14,8 +14,8 @@ import { deleteReservation } from "@/services/reservation";
 
 const pathNameDict: { [x: string]: string } = {
   "/properties": "Delete property",
-  "/trips": "Cancel reservation",
-  "/reservations": "Cancel guest reservation",
+  "/trips": "Cancel tour ",
+  "/reservations": "Cancel guest booking",
 };
 
 interface ListingMenuProps {
@@ -48,7 +48,7 @@ const ListingMenu: FC<ListingMenuProps> = ({ id }) => {
           cancelReservation(id, {
             onSuccess: () => {
               onModalClose?.();
-              toast.success("Reservation successfully cancelled!");
+              toast.success("booking successfully cancelled!");
             },
           });
         }

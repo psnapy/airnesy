@@ -87,7 +87,7 @@ export const createReservation = async ({
     const user = await getCurrentUser();
 
     if (!user) {
-      throw new Error("Please log in to reserve!");
+      throw new Error("Please log in to book tour!");
     }
 
     await db.listing.update({
