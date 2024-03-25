@@ -36,11 +36,14 @@ const ListingReservation: React.FC<ListingReservationProps> = ({
         <span className="font-light text-neutral-600">month</span>
       </div>
       <hr />
-      <Calendar
-        value={dateRange}
-        disabledDates={disabledDates}
-        onChange={onChangeDate}
-      />
+
+   <div>
+<p>
+  Contact:
+</p>
+
+   </div>
+
       <hr />
       <div className="p-4">
         <Button
@@ -49,7 +52,7 @@ const ListingReservation: React.FC<ListingReservationProps> = ({
           className="flex flex-row items-center justify-center h-[42px] "
           size="large"
         >
-          {isLoading ? <SpinnerMini /> : <span>Book Tour</span>}
+          {isLoading ? <SpinnerMini /> : <span>Book a Tour</span>}
         </Button>
       </div>
       <hr />
