@@ -5,6 +5,8 @@ import "react-loading-skeleton/dist/skeleton.css";
 import Navbar from "@/components/navbar";
 import Providers from "@/components/Provider";
 
+import { Analytics } from '@vercel/analytics/react';
+ 
 import Footer from "./footer";
 
 const nunito = Nunito({ subsets: ["latin"] });
@@ -31,7 +33,7 @@ export default function RootLayout({
           <Footer/>
         </Providers>
        
-        
+        <Analytics />
       </body>
 
 
