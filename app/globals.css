@@ -41,16 +41,18 @@ body {
 
 
 .container {
-  @apply max-w-[1220px] mx-auto xl:px-0 px-0;
+  @apply max-w-[1220px] mx-auto xl:px-0 px-4;
  
 }
 
 
 
 @media (max-width: 640px) {
-  .rounded-lg {
-    border-radius: 0; /* Remove rounded corners for small screens */
+   @apply  mx-auto xl:px-0 px-0;
 
+  .rounded-xl {
+    border-radius: 0; /* Remove rounded corners for small screens */
+  
    
   }
 }
