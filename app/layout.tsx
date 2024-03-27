@@ -12,9 +12,11 @@ import Footer from "./footer";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Airnesy",
+  title: "Airnesy: Buy & Rent Real Estate, Apartments, homes & Comercial property",
   description:
-    "Your Ultimate Home and Proprty Finder. Discover a world of endless property listings and find your dream home with one click.",
+    "The leading real eastate maeketplace. Your ultimate Home and Proprty Finder, Discover a world of endless property listings and find your dream home in one click.",
+
+
 };
 
 export default function RootLayout({
