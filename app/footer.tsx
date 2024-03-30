@@ -12,7 +12,7 @@ import logo from './eastate.gif';
                          return (
                           <div>
                            <div className='pt-60 pb-60 bg-[#f0f0f0] text-center items-center  '>
-                            <h2><b>join our community</b></h2>
+                            <h1 className='pb-5'><b>join our community</b></h1>
 
                             <div className="flex items-center justify-center  ml-10 mr-10  space-x-4">
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaInstagram /></a></div>
@@ -37,39 +37,39 @@ import logo from './eastate.gif';
                                  <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
 
-                               <div className="flex justify-center">
+                               <div className="mb-4 md:mb-0">
                                <h1 className="text-lg font-bold">Company</h1>
-                                 <li className="flex space-x-4">
-                                   <li>
+                                 
+                                   <p>
                                      <a href="#" className="hover:text-gray-400">About</a>
-                                   </li>
-                                   <li>
+                                   </p>
+                                   <p>
                                      <a href="#" className="hover:text-gray-400">careers</a>
-                                   </li>
-                                   <li>
+                                   </p>
+                                   <p>
                                      <a href="#" className="hover:text-gray-400">news</a>
-                                   </li>
-                                   <li>
+                                   </p>
+                                   <p>
                                      <a href="#" className="hover:text-gray-400">press</a>
-                                   </li>
+                                   </p>
 
-                                 </li>
+                                 
                                </div>
 
 
-                               <div className="flex justify-center">
+                               <div className="mb-4 md:mb-0">
                                <h1 className="text-lg font-bold">Product</h1>
-                                 <li className="flex space-x-4">
-                                   <li>
+                                
+                                   <p>
                                      <a href="#" className="hover:text-gray-400">Web App</a>
-                                   </li>
-                                   <li>
+                                   </p>
+                                   <p>
                                      <a href="#" className="hover:text-gray-400">iphone App</a>
-                                   </li>
-                                   <li>
+                                   </p>
+                                   <p>
                                      <a href="#" className="hover:text-gray-400">Android App</a>
-                                   </li>
-                                 </li>
+                                   </p>
+                                 
                                </div>
 
                                <div className="mb-4 md:mb-0">
