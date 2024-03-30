@@ -4,11 +4,12 @@
                          return (
                            <div className='pt-80'>
                        
+          <link rel="gif" href="/estate.gif" />
                              <hr />
                            <footer className="bg-[#f0f0f0] text-black py-6 ">
                              <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
                                <div className="mb-4 md:mb-0">
-                                 <h3 className="text-lg font-bold">Airnesy Group</h3>
+                                 <h2 className="text-lg font-bold">airnesy group</h2>
                                  <p className="mt-2">123 Main Street, NRB, Kenya</p>
                                  <p>Email: airnesy.info@gmail.com</p>
                                </div>
