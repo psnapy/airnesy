@@ -1,9 +1,10 @@
+
 import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <div className="flex justify-between items-center bg-[#ffffff] pt-80 width-full" >
-      <footer className="flex justify-center items-center bg-[#f0f0f0] pt-10 pb-10 pl-10 pr-10">
+    <div className="flex justify-between items-center bg-[#ffffff] pt-80 w-full">
+      <footer className="flex justify-center items-center bg-[#f0f0f0] pt-10 pb-10 px-5">
         <div className='text-center p-5'>
           <p>Copyright © 2024 airnesy. All rights reserved.</p>
           <p>This site is in Development. Stay tuned for the full release!</p>
