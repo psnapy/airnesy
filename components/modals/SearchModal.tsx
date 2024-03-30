@@ -16,14 +16,13 @@ const Calendar = dynamic(() => import("@/components/Calender"), { ssr: false });
 
 const steps = {
   "0": "location",
-  "1": "dateRange",
-  "2": "guestCount",
+
+  "1": "guestCount",
 };
 
 enum STEPS {
   LOCATION = 0,
-  DATE = 1,
-  INFO = 2,
+  INFO = 1,
 }
 
 const SearchModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
@@ -34,19 +33,15 @@ const SearchModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
   const { handleSubmit, setValue, watch, getValues } = useForm<FieldValues>({
     defaultValues: {
       location: null,
-      guestCount: 1,
+ 
       bathroomCount: 1,
       roomCount: 1,
-      dateRange: {
-        startDate: new Date(),
-        endDate: new Date(),
-        key: "selection",
-      },
+  
     },
   });
 
   const location = watch("location");
-  const dateRange = watch("dateRange");
+  
   const country = location?.label;
 
   const Map = useMemo(
@@ -76,7 +71,7 @@ const SearchModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
 
   const onSubmit: SubmitHandler<FieldValues> = (data) => {
     if (step !== STEPS.INFO) return onNext();
-    const { guestCount, roomCount, bathroomCount, dateRange } = data;
+    const {roomCount, bathroomCount } = data;
 
     let currentQuery = {};
 
@@ -87,18 +82,11 @@ const SearchModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
     const updatedQuery: any = {
       ...currentQuery,
       country: location?.label,
-      guestCount,
+
       roomCount,
       bathroomCount,
     };
 
-    if (dateRange.startDate) {
-      updatedQuery.startDate = formatISO(dateRange.startDate);
-    }
-
-    if (dateRange.endDate) {
-      updatedQuery.endDate = formatISO(dateRange.endDate);
-    }
 
     const url = queryString.stringifyUrl(
       {
