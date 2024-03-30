@@ -4,21 +4,21 @@ const Footer: React.FC = () => {
   return (
     <div className="flex justify-between items-center bg-[#ffffff] pt-80">
       <footer className="flex justify-center items-center bg-[#f0f0f0] pt-10 pb-10">
-        <div>
+        <div className='text-center p-5'>
           <p>Copyright © 2024 airnesy. All rights reserved.</p>
           <p>This site is in Development. Stay tuned for the full release!</p>
         </div>
 
-        <div>
+        <div className='text-center p-5'>
           <p>airney.info@gmail.com</p>
         </div>
 
-        <div>
+        <div className='text-center p-5'>
           <p>about</p>
           <p>careers</p>
         </div>
 
-        <div>
+        <div className='text-center p-5'>
           <p>
             <span>about</span> <span>careers</span>
           </p>
