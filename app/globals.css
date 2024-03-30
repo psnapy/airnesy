@@ -143,7 +143,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-[#2F74FD];
+  @apply bg-[#707070];
 }
 
 ::-webkit-scrollbar-track {
