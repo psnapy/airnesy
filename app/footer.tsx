@@ -14,7 +14,7 @@ import logo from './eastate.gif';
                            <div className='pt-60 pb-60 bg-[#f0f0f0] text-center items-center  '>
                             <h2><b>join our community</b></h2>
 
-                            <div className="flex items-center justify-center  pl-10 pr-10  space-x-4">
+                            <div className="flex items-center justify-center  ml-10 mr-10  space-x-4">
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaInstagram /></a></div>
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTwitter /></a></div>
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTiktok /></a></div>
@@ -33,43 +33,43 @@ import logo from './eastate.gif';
      
 
                              <div>
-                             <h5 className="text-lg font-bold">airnesy.com</h5>
+                           <h1><b>airnesy.com</b></h1>
                                  <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
 
                                <div className="flex justify-center">
                                <h1 className="text-lg font-bold">Company</h1>
-                                 <ul className="flex space-x-4">
-                                   <ul>
+                                 <li className="flex space-x-4">
+                                   <li>
                                      <a href="#" className="hover:text-gray-400">About</a>
-                                   </ul>
-                                   <ul>
+                                   </li>
+                                   <li>
                                      <a href="#" className="hover:text-gray-400">careers</a>
-                                   </ul>
-                                   <ul>
+                                   </li>
+                                   <li>
                                      <a href="#" className="hover:text-gray-400">news</a>
-                                   </ul>
-                                   <ul>
+                                   </li>
+                                   <li>
                                      <a href="#" className="hover:text-gray-400">press</a>
-                                   </ul>
+                                   </li>
 
-                                 </ul>
+                                 </li>
                                </div>
 
 
                                <div className="flex justify-center">
                                <h1 className="text-lg font-bold">Product</h1>
-                                 <ul className="flex space-x-4">
-                                   <ul>
+                                 <li className="flex space-x-4">
+                                   <li>
                                      <a href="#" className="hover:text-gray-400">Web App</a>
-                                   </ul>
-                                   <ul>
+                                   </li>
+                                   <li>
                                      <a href="#" className="hover:text-gray-400">iphone App</a>
-                                   </ul>
-                                   <ul>
+                                   </li>
+                                   <li>
                                      <a href="#" className="hover:text-gray-400">Android App</a>
-                                   </ul>
-                                 </ul>
+                                   </li>
+                                 </li>
                                </div>
 
                                <div className="mb-4 md:mb-0">
