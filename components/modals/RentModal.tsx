@@ -248,7 +248,8 @@ const RentModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
     }
   };
 
-  const isFieldFilled = !!getValues(steps[step]);
+  const isFieldFilled = Object.values(getValues()).every(value => value !== undefined && value !== null);
+
 
   return (
     <div className="w-full h-full flex flex-col">
