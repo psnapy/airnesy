@@ -11,8 +11,15 @@ import logo from './eastate.gif';
                        const Footer: React.FC = () => {
                          return (
                            <div className='pt-80'>
-                       
-                       <div className="flex items-center space-x-4">
+                          
+                             
+                           <footer className="bg-[#f0f0f0] text-black py-6 ">
+                             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+
+
+    
+                             <div className="flex items-center  text-center space-x-4">
+                        <div>
           {/* Social media icons */}
           <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
           <a href="#" className="hover:text-gray-400"><FaTwitter /></a>
@@ -23,10 +30,10 @@ import logo from './eastate.gif';
           <a href="#" className="hover:text-gray-400"><FaDiscord /></a>
         </div>
                       
-        <Image src={logo} alt="Company Logo" width={150} height={40} />             
-                             <hr />
-                           <footer className="bg-[#f0f0f0] text-black py-6 ">
-                             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <Image src={logo} alt="Company Logo" width={350} height={250} /> 
+         
+        </div>  
+
                                <div className="mb-4 md:mb-0">
                                  <h2 className="text-lg font-bold">airnesy group</h2>
                                  <p className="mt-2">123 Main Street, NRB, Kenya</p>
