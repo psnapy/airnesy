@@ -34,8 +34,8 @@ const SearchModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
     defaultValues: {
       location: null,
  
-      bathroomCount: 1,
-      roomCount: 1,
+      bathroomCount: 0,
+      roomCount: 0,
   
     },
   });
