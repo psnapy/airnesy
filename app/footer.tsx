@@ -32,10 +32,8 @@ import logo from './eastate.gif';
 
      
 
-                               <div className="mb-4 md:mb-0">
-                                 <h2 className="text-lg font-bold">airnesy group</h2>
-                                 <p className="mt-2">123 Main Street, NRB, Kenya</p>
-                                 <p>Email: airnesy.info@gmail.com</p>
+                             <div>
+                                 <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
                                <div className="flex justify-center">
                                  <ul className="flex space-x-4">
@@ -50,9 +48,12 @@ import logo from './eastate.gif';
                                    </li>
                                  </ul>
                                </div>
-                               <div>
-                                 <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
+                               <div className="mb-4 md:mb-0">
+                                 <h1 className="text-lg font-bold">airnesy group</h1>
+                                 <p className="mt-2">123 Main Street, NRB, Kenya</p>
+                                 <p>Email: airnesy.info@gmail.com</p>
                                </div>
+                              
                              </div>
                            </footer>
                            <hr />
