@@ -12,9 +12,9 @@ import logo from './eastate.gif';
                          return (
                           <div>
                            <div className='pt-60 pb-60 bg-[#f0f0f0] text-center items-center  '>
-                            <p className='pb-5 text-size: 20px;  '><b>join our community</b></p>
+                            <p className='pb-5  style="font-size: 20px;   '><b>join our community</b></p>
 
-                            <div className="flex items-center justify-center  pl-10 pr-10  space-x-4">
+                            <div className="flex items-center justify-center  pl-5 pr-5  space-x-4">
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaInstagram /></a></div>
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTwitter /></a></div>
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTiktok /></a></div>
@@ -33,7 +33,7 @@ import logo from './eastate.gif';
      
 
                              <div>
-                           <h1 className='pt-3  font-size: 60px;'><b>airnesy.com</b></h1>
+                           <h1 className='pt-3   style="font-size: 20px;'><b>airnesy.com</b></h1>
                                  <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
 
