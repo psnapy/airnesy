@@ -33,7 +33,7 @@ import logo from './eastate.gif';
      
 
                              <div>
-                           <h1 className='pt-3   style="font-size: 20px;'>airnesy.com</h1>
+                           <h1 className='pt-3   font-size: 20px;'>airnesy.com</h1>
                                  <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
 
@@ -84,7 +84,7 @@ import logo from './eastate.gif';
                                   </p>
 
 <                                   p> 
-                                 erms of Service  
+                                 terms of Service  
                                   </p>
                                </div>
                               
