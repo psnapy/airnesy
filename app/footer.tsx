@@ -11,14 +11,10 @@ import logo from './eastate.gif';
                        const Footer: React.FC = () => {
                          return (
                            <div className='pt-80'>
-                          
-                             
-                           <footer className="bg-[#f0f0f0] text-black py-6 ">
-                             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
 
-    
-                             <div className="flex items-center  text-center space-x-4">
+
+<div className="flex items-center  text-center space-x-4">
                         <div>
           {/* Social media icons */}
           <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
@@ -32,7 +28,14 @@ import logo from './eastate.gif';
                       
        
          
-        </div>  
+        </div> 
+                          
+                             
+                           <footer className="bg-[#f0f0f0] text-black py-6 ">
+                             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+
+
+     
 
                                <div className="mb-4 md:mb-0">
                                  <h2 className="text-lg font-bold">airnesy group</h2>
