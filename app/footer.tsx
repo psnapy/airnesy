@@ -12,25 +12,16 @@ import logo from './eastate.gif';
                          return (
                            <div className='pt-80'>
 
-
-
-<div className=" items-center  text-center space-x-4">
-                        <div>
-          {/* Social media icons */}
-          <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
-          <a href="#" className="hover:text-gray-400"><FaTwitter /></a>
-          <a href="#" className="hover:text-gray-400"><FaTiktok /></a>
-          <a href="#" className="hover:text-gray-400"><FaFacebookF /></a>
-          <a href="#" className="hover:text-gray-400"><FaYoutube /></a>
-          <a href="#" className="hover:text-gray-400"><FaReddit /></a>
-          <a href="#" className="hover:text-gray-400"><FaDiscord /></a>
-        </div>
-                      
-       
-         
-        </div> 
-                          
-                             
+<div className="flex items-center justify-center space-x-4">
+    <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
+    <a href="#" className="hover:text-gray-400"><FaTwitter /></a>
+    <a href="#" className="hover:text-gray-400"><FaTiktok /></a>
+    <a href="#" className="hover:text-gray-400"><FaFacebookF /></a>
+    <a href="#" className="hover:text-gray-400"><FaYoutube /></a>
+    <a href="#" className="hover:text-gray-400"><FaReddit /></a>
+    <a href="#" className="hover:text-gray-400"><FaDiscord /></a>
+</div>
+                  
                            <footer className="bg-[#f0f0f0] text-black py-6 ">
                              <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
