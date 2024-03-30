@@ -12,12 +12,12 @@ import Heading from "../Heading";
 import Counter from "../inputs/Counter";
 import CountrySelect from "../inputs/CountrySelect";
 
-const Calendar = dynamic(() => import("@/components/Calender"), { ssr: false });
+
 
 const steps = {
   "0": "location",
 
-  "1": "guestCount",
+  "1": "roomCount",
 };
 
 enum STEPS {
@@ -146,7 +146,8 @@ const SearchModal = ({ onCloseModal }: { onCloseModal?: () => void }) => {
     }
   };
 
-  const isFieldFilled = !!getValues(steps[step]);
+  const isFieldFilled = Object.values(getValues()).every(value => value !== undefined && value !== null);
+
 
   return (
     <div className="h-full w-full bg-white flex flex-col">
