@@ -10,7 +10,8 @@ import Image from 'next/image';
 import logo from './eastate.gif';
                        const Footer: React.FC = () => {
                          return (
-                           <div className='pt-80'>
+                           <div className='pt-40 pb-40 bg-[#f0f0f0] text-center items-center  '>
+                            <h2><b>join our community</b></h2>
 
 <div className="flex items-center justify-center space-x-4">
     <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
@@ -22,7 +23,7 @@ import logo from './eastate.gif';
     <a href="#" className="hover:text-gray-400"><FaDiscord /></a>
 </div>
                   
-                           <footer className="bg-[#f0f0f0] text-black py-6 ">
+                           <footer className="bg-[#ffffff] text-black py-6 ">
                              <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
 
