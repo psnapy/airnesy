@@ -14,7 +14,7 @@ import logo from './eastate.gif';
 
 
 
-<div className="flex items-center  text-center space-x-4">
+<div className=" items-center  text-center space-x-4">
                         <div>
           {/* Social media icons */}
           <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
