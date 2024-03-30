@@ -23,8 +23,10 @@ import logo from './eastate.gif';
           <a href="#" className="hover:text-gray-400"><FaReddit /></a>
           <a href="#" className="hover:text-gray-400"><FaDiscord /></a>
         </div>
-                      
-        <Image src={logo} alt="Company Logo" width={350} height={250} /> 
+                <div>
+                <Image src={logo} alt="Company Logo" width={350} height={250} /> 
+                  </div>      
+      
          
         </div> 
                            <footer className="bg-[#ffffff] text-black py-6 ">
