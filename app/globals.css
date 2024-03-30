@@ -139,11 +139,11 @@ body {
   }
 }
 ::-webkit-scrollbar-thumb {
-  @apply bg-[#808080] transition-all duration-300 rounded-[25px];
+  @apply bg-[#f0f0f0] transition-all duration-300 rounded-[25px];
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-[#707070];
+  @apply bg-[#f0f0f1];
 }
 
 ::-webkit-scrollbar-track {
