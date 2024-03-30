@@ -12,7 +12,7 @@ import logo from './eastate.gif';
                          return (
                           <div>
                            <div className='pt-60 pb-60 bg-[#f0f0f0] text-center items-center  '>
-                            <p className='pb-5 font-size: 60px;  '><b>join our community</b></p>
+                            <p className='pb-5 text-size: 20px;  '><b>join our community</b></p>
 
                             <div className="flex items-center justify-center  pl-10 pr-10  space-x-4">
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaInstagram /></a></div>
