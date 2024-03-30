@@ -12,7 +12,7 @@ import logo from './eastate.gif';
                          return (
                            <div className='pt-80'>
                           
-                          <div className="flex items-center  mx-auto flex flex-col md:flex-row items-center  bg-[#f0f0f0] text-center space-x-4">
+                          <div className="flex items-center  mx-auto  items-center  bg-[#f0f0f0] text-center space-x-4">
                         <div>
           {/* Social media icons */}
           <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
