@@ -11,7 +11,7 @@ import logo from './eastate.gif';
                        const Footer: React.FC = () => {
                          return (
                           <div>
-                           <div className='pt-40 pb-40 bg-[#f0f0f0] text-center items-center  '>
+                           <div className='pt-60 pb-60 bg-[#f0f0f0] text-center items-center  '>
                             <h2><b>join our community</b></h2>
 
                             <div className="flex items-center justify-center space-x-4">
@@ -26,7 +26,7 @@ import logo from './eastate.gif';
 
                   
     </div>               
-            <footer className="bg-[#ffffff] text-black py-6 ">
+            <footer className="bg-[#ffffff] text-black py-6  pt-20 pb-40">
                              <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
 
@@ -55,6 +55,7 @@ import logo from './eastate.gif';
                                </div>
                              </div>
                            </footer>
+                           <hr />
                            </div>
                          );
                        };
