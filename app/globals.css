@@ -157,22 +157,23 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   width: 0;
 }
-
-.container6 {
+.icon-circle {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  background-color: black;
+  border-radius: 50%; /* Makes it a circle */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.social-media1 {
-  margin-bottom: 20px; /* Adjust as needed */
+.icon-circle a {
+  color: white; /* Icon color */
+  font-size: 24px; /* Adjust size as needed */
 }
 
-.social-icon {
-  margin-right: 10px; /* Adjust as needed */
-  font-size: 24px; /* Adjust as needed */
-  color: #000; /* Adjust the color */
+.icon-circle a:hover {
+  color: #ccc; /* Hover color */
 }
 
 

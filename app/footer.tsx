@@ -10,20 +10,23 @@ import Image from 'next/image';
 import logo from './eastate.gif';
                        const Footer: React.FC = () => {
                          return (
+                          <div>
                            <div className='pt-40 pb-40 bg-[#f0f0f0] text-center items-center  '>
                             <h2><b>join our community</b></h2>
 
-<div className="flex items-center justify-center space-x-4">
-    <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
-    <a href="#" className="hover:text-gray-400"><FaTwitter /></a>
-    <a href="#" className="hover:text-gray-400"><FaTiktok /></a>
-    <a href="#" className="hover:text-gray-400"><FaFacebookF /></a>
-    <a href="#" className="hover:text-gray-400"><FaYoutube /></a>
-    <a href="#" className="hover:text-gray-400"><FaReddit /></a>
-    <a href="#" className="hover:text-gray-400"><FaDiscord /></a>
+                            <div className="flex items-center justify-center space-x-4">
+    <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaInstagram /></a></div>
+    <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTwitter /></a></div>
+    <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTiktok /></a></div>
+    <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaFacebookF /></a></div>
+    <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaYoutube /></a></div>
+    <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaReddit /></a></div>
+    <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaDiscord /></a></div>
 </div>
+
                   
-                           <footer className="bg-[#ffffff] text-black py-6 ">
+    </div>               
+            <footer className="bg-[#ffffff] text-black py-6 ">
                              <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
 
