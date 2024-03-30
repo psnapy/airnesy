@@ -14,8 +14,8 @@ const nunito = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Airnesy: Buy & Rent Real Estate, Apartments, homes & Comercial property",
   description:
-    "The leading real eastate maeketplace. Your ultimate Home and Proprty Finder, Discover a world of endless property listings and find your dream home in one click.",
-
+    "The leading real eastate maeketplace. Your ultimate Home and Property Finder, Discover a world of endless property listings and find your dream home in a click.",
+    
 
 };
 
@@ -25,7 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
+
     <html lang="en">
+
+     <link rel="icon" href="/favicon.ico" />
+      
       <body className={nunito.className}>
         <Providers>
           <Navbar />
