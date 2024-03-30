@@ -38,7 +38,7 @@ import logo from './eastate.gif';
                                </div>
 
                                <div className="mb-4 md:mb-0">
-                               <h1 className="text-lg font-bold">Company</h1>
+                               <h1 className="text-20 font-bold">Company</h1>
                                  
                                    <p>
                                      <a href="#" className="hover:text-gray-400">About</a>
