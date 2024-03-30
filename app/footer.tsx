@@ -1,33 +1,34 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <div className="flex justify-between items-center bg-[#ffffff] pt-80 w-full">
-      <footer className="flex justify-center items-center bg-[#f0f0f0] pt-10 pb-10 px-5">
-        <div className='text-center p-5'>
-          <p>Copyright © 2024 airnesy. All rights reserved.</p>
-          <p>This site is in Development. Stay tuned for the full release!</p>
+    <footer className="bg-gray-900 text-white py-6">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <div className="mb-4 md:mb-0">
+          <h3 className="text-lg font-bold">Company Name</h3>
+          <p className="mt-2">123 Main Street, City, Country</p>
+          <p>Email: info@example.com</p>
         </div>
-
-        <div className='text-center p-5'>
-          <p>airney.info@gmail.com</p>
+        <div className="flex justify-center">
+          <ul className="flex space-x-4">
+            <li>
+              <a href="#" className="hover:text-gray-400">About</a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-gray-400">Services</a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-gray-400">Contact</a>
+            </li>
+          </ul>
         </div>
-
-        <div className='text-center p-5'>
-          <p>about</p>
-          <p>careers</p>
+        <div>
+          <p>&copy; {new Date().getFullYear()} Company Name. All rights reserved.</p>
         </div>
-
-        <div className='text-center p-5'>
-          <p>
-            <span>about</span> <span>careers</span>
-          </p>
-          <p>Terms . Sitemap . Privacy . English (US) . $ USD .</p>
-        </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 };
 
 export default Footer;
+
