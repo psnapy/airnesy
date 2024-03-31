@@ -38,7 +38,7 @@ const ListingPage = async ({ params: { listingId } }: { params: IParams }) => {
   const category = categories.find((cate) => cate.label === listing.category);
 
   return (
-    <section className="container2  ">
+    <section className="container  ">
       <div className="flex flex-col gap-6">
         <ListingHead
           title={title}
