@@ -1,13 +1,11 @@
  import React from 'react';
+
+ import Link from 'next/link';
+
 // Import social media icons (you may need to adjust the paths)
 import { FaInstagram, FaTwitter, FaTiktok, FaFacebookF, FaYoutube, FaReddit, FaDiscord } from 'react-icons/fa';
 
-import Image from 'next/image';
 
-
-
-// Import your company logo
-import logo from './eastate.gif';
                        const Footer: React.FC = () => {
                          return (
                           <div>
@@ -41,7 +39,10 @@ import logo from './eastate.gif';
                                <h1 className="text-lg font-bold">Company</h1>
                                  
                                    <p>
-                                     <a href="#" className="hover:text-gray-400">About</a>
+
+                                   <Link href="/about" className="hover:text-gray-400" >
+                                     <a>About</a>
+                                   </Link>
                                    </p>
                                    <p>
                                      <a href="#" className="hover:text-gray-400">careers</a>
