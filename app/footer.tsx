@@ -40,7 +40,7 @@ import { FaInstagram, FaTwitter, FaTiktok, FaFacebookF, FaYoutube, FaReddit, FaD
                                  
                                    <p>
 
-                                   <Link href="./about" className="hover:text-gray-400" >
+                                   <Link href="/about" className="hover:text-gray-400" >
                                      <a>About</a>
                                    </Link>
                                    </p>

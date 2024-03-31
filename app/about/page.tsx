@@ -3,7 +3,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-const About: React.FC = () => {
+const Aboutpage: React.FC = () => {
   return (
     <div>
       <Head>
@@ -18,4 +18,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default Aboutpage;
