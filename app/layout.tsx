@@ -50,7 +50,7 @@ export default function RootLayout({
       
       <body className={nunito.className}>
         <Providers>
-          
+          <Navbar />
           <main className="pb-16 md:pt-28 pt-24">{children}</main>
 
 
