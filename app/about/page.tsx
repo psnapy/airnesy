@@ -1,21 +1,26 @@
-// pages/about.tsx
+import React from "react";
+import EmptyState from "@/components/EmptyState";
+import Heading from "@/components/Heading";
 
-import Head from 'next/head';
-import React from 'react';
-
-const Aboutpage: React.FC = () => {
+const AboutPage = () => {
   return (
-    <div>
-      <Head>
-        <title>About Us</title>
-      </Head>
-      <div>
-        <h1>About Us</h1>
-        <p>Welcome to our About page!</p>
-        <p>We are a company dedicated to providing excellent services.</p>
+    <section className="main-container3">
+      <Heading
+        title="About Us"
+        subtitle="Learn more about our company."
+        backBtn={false}
+      />
+      <div className="mt-8">
+        <p className="text-lg mb-4">
+          Welcome to our website! We are dedicated to providing excellent services.
+        </p>
+        <p className="text-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+        </p>
+        {/* Add more content as needed */}
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Aboutpage;
+export default AboutPage;
