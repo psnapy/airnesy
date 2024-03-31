@@ -6,7 +6,7 @@ import Providers from "@/components/Provider";
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import Footer from "./footer";
-
+import Navbar2 from "@/components/navbar2";
 const nunito = Nunito({ subsets: ["latin"] });
 
 interface NoNavbarLayoutProps {
@@ -34,6 +34,7 @@ const NoNavbarLayout = ({ children }: NoNavbarLayoutProps) => {
       </Head>
       <body className={nunito.className}>
         <Providers>
+        <Navbar2 />
           <main className="pb-16 md:pt-28 pt-24">{children}</main>
           <Footer />
         </Providers>
