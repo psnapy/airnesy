@@ -8,10 +8,10 @@ import Providers from "@/components/Provider";
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
  
+import { useRouter } from "next/router";
 import Footer from "./footer";
 
 const nunito = Nunito({ subsets: ["latin"] });
-
 
 
 export default function RootLayout({
@@ -19,9 +19,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
+  const router = useRouter();
 
-
+  // Determine if the current page is the About page
+  const isAboutPage = router.pathname === "/about";
     
        <html lang="en">
 
