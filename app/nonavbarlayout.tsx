@@ -6,7 +6,6 @@ import Providers from "@/components/Provider";
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import Footer from "./footer";
-import Navbar2 from "@/components/navbar2";
 const nunito = Nunito({ subsets: ["latin"] });
 
 interface NoNavbarLayoutProps {
