@@ -62,7 +62,7 @@ body {
 
 
 .main-container {
-  @apply max-w-[1520px] mx-auto xl:px-0 px-4;
+  @apply max-w-[1720px] mx-auto xl:px-0 px-4;
 
   /* Remove padding on small screens */
   padding-left: 0;
