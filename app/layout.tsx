@@ -1,5 +1,4 @@
 // Import necessary modules from Next.js and React
-import { useRouter, NextRouter } from "next/router"; 
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import { Nunito } from "next/font/google";
@@ -16,12 +15,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // Get the router instance
-  const router: NextRouter = useRouter();
-
-  // Determine if the current page is the About page
-  const isAboutPage = router.pathname === "/about";
-
   return (
     <html lang="en">
       <Head>
