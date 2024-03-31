@@ -33,12 +33,12 @@ import logo from './eastate.gif';
      
 
                              <div>
-                           <h1 className='pt-3   font-size: 20px;'>airnesy.com</h1>
+                           <h1 className='pt-3   style="font-size: 20px;'>airnesy.com</h1>
                                  <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
 
                                <div className="mb-4 md:mb-0">
-                               <h1 className="text-20 font-bold">Company</h1>
+                               <h1 className="text-lg font-bold">Company</h1>
                                  
                                    <p>
                                      <a href="#" className="hover:text-gray-400">About</a>
