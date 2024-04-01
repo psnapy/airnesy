@@ -42,9 +42,18 @@ const AboutPage = () => {
                Airnesy is the leading real  estate marketplace globally. airnesy’s ecosystem of 
                products and services is designed to provide a seamless, end-to-end property listing and searching
                 experience, helping renters, shoppers,buyers and sellers with every step of their journey to findind their dream property.
-              Airnesy is synonymous with real estate. As the most visited, most trusted1 name in the industry, “airnesy
+                </p>  
+              
+              
+                <p>
+                Airnesy is synonymous with real estate.
+                </p>
+            <p>
+
+            As the most visited, most trusted1 name in the industry, “airnesy
               is searched more often than “real estate.”
-          </p>
+            </p>
+          
 
 
 
