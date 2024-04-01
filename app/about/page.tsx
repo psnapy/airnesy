@@ -2,7 +2,6 @@ import React from "react";
 import NoNavbarLayout from "../nonavbarlayout";
 import Heading from "@/components/Heading";
 import Image from 'next/image';
-import logo from '../static_about-images_image 2337.png';
 
 const AboutPage = () => {
   return (
@@ -21,13 +20,14 @@ const AboutPage = () => {
           </p>
           
           <Image
-        src="../static_about-images_image 2337.png"
+        src="/images/logo.png"
         alt="airnesy.com logo"
         
         fill
-        sizes="250px"
-        
+        sizes="150px"
+        priority
       />
+      
 
           {/* Add more content as needed */}
         </div>
