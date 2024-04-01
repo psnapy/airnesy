@@ -18,7 +18,7 @@ const AboutPage = () => {
           <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
           </p>
-          <Image src="app/static_about-images_image 2337.png" alt="Footer Logo" width={150} height={50} />
+          <Image src="./static_about-images_image 2337.png" alt="Footer Logo" width={350} height={150} />
 
 
 
