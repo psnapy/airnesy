@@ -45,10 +45,10 @@ const AboutPage = () => {
                 </p>  
               
               
-                <p>
+                <p className="pt-1">
                 Airnesy is synonymous with real estate.
                 </p>
-            <p>
+            <p className="pt-1">
 
             As the most visited, most trusted1 name in the industry, “airnesy
               is searched more often than “real estate.”
