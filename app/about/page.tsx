@@ -5,7 +5,7 @@ import Heading from "@/components/Heading";
 const AboutPage = () => {
   return (
     <NoNavbarLayout>
-      <section className="main-container3">
+      <section className="main-container4">
         <Heading
           title="About Us"
           subtitle="Learn more about our company."
