@@ -10,6 +10,7 @@ const AboutPage = () => {
         <Heading
           title=""
           backBtn={false}
+          RootLayout={false}
         />
         <div className="mt-6 ">
           <p className="textlg mb-6"> <b>
@@ -17,7 +18,7 @@ const AboutPage = () => {
           </b>
           
           </p>
-          <p className="textlg1 mb-4 pl-8 pr-8 "> <b>  Home far away from home making your dreams come true </b>
+          <p className="textlg1 mb-4 pl-14 pr-14 "> <b>  Home far away from home making your dreams come true </b>
          
           </p>
           
