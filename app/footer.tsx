@@ -31,7 +31,7 @@ import { FaInstagram, FaTwitter, FaTiktok, FaFacebookF, FaYoutube, FaReddit, FaD
      
 
                              <div>
-                           <h1 className=" pt-3 textlg1 font-bold">airnesy.com</h1>
+                           <h1 className=" pt-3 textlg2 font-bold">airnesy.com</h1>
                                  <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
 

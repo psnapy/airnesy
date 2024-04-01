@@ -17,10 +17,7 @@ const AboutPage = () => {
           </b>
           
           </p>
-          <p className="textlg1 mb-4"> <b>  Home far away from home  </b>
-           
-          </p>
-          <p className="textlg1 "><b>  making your dreams come true </b>
+          <p className="textlg1 mb-4"> <b>  Home far away from home making your dreams come true </b>
          
           </p>
           
