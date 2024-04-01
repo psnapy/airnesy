@@ -15,9 +15,7 @@ const Navbar2: React.FC<NavbarProps> = async () => {
       <nav className="py-3 border-b-[1px]">
         <div className="flex main-container flex-row justify-between items-center gap-3 md:gap-0">
           <Logo />
-          <Suspense fallback={<></>}>
         
-          </Suspense>
           <UserMenu user={user} />
         </div>
       </nav>
