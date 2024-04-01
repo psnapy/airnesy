@@ -2,6 +2,11 @@ import React from "react";
 import NoNavbarLayout from "../nonavbarlayout";
 import Heading from "@/components/Heading";
 import Image from 'next/image';
+import Link from 'next/link'; 
+
+
+
+
 
 const AboutPage = () => {
   return (
@@ -53,18 +58,14 @@ const AboutPage = () => {
             As the most visited, most trusted1 name in the industry, “airnesy
               is searched more often than “real estate.”
             </p>
-          <div className="flex pt-8"> 
-            
-             <button className="rounded-xl bg-gray">
-              learn more
-             </button>
           
 
-             <button className="rounded-xl bg-gray">
-              in the news
-             </button>
+            <div className="pt-4">
+              <Link href="/other-page">
+                <a className="buttonn">Go to Other Page</a>
+              </Link>
+            </div>
 
-             </div>
           </div>
 
           {/* Add more content as needed */}

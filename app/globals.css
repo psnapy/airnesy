@@ -125,7 +125,19 @@ body {
  
 }
 
+.buttonn {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000; /* Default color */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect */
+}
 
+.buttonn:hover {
+  background-color: #ccc; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
 
 
 
