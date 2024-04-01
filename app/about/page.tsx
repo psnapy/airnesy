@@ -8,23 +8,28 @@ const AboutPage = () => {
     <NoNavbarLayout>
       <section className="main-container4 text-center items-center ">
         <Heading
-          title="airnesy"
+          title=""
           backBtn={false}
         />
-        <div className="mt-8 ">
-          <p className="text-lg mb-4">
-            Welcome to our website! We are dedicated to providing excellent services.
+        <div className="mt-6 ">
+          <p className="textlg mb-6">
+            airnesy.com
           </p>
-          <p className="text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+          <p className="textlg mb-4">
+            Home far away from home
+          </p>
+          <p className="textlg ">
+          making your dreams come true
           </p>
           
+
+          <div className="pt-5">
           <Image className="gif rounded-xl "
               src="/images/gif.gif" // Replace this with the actual path to your image
               alt="Description of the image"
             
             />
-          
+          </div>
 
           {/* Add more content as needed */}
         </div>
