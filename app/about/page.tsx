@@ -32,6 +32,24 @@ const AboutPage = () => {
             />
           </div>
 
+
+          <div>
+          <p className="textlg mb-4 mt-8 "> <b>
+          about us
+          </b> </p>
+
+          <p>
+               Airnesy is the leading real  estate marketplace globalling. airnesy’s ecosystem of products and services is designed to provide a seamless, 
+              end-to-end property searching experience, helping renters, shoppers,
+               buyers and sellers with every step of their journey. Founded to empower people with information so they could find the right home, 
+              Zillow is synonymous with real estate. As the most visited, most trusted1 name in the industry, “Zillow”
+              is searched more often than “real estate,”2 and our data indicates 70% of all home buyers and sellers use Zillow at some point in their transaction.
+          </p>
+
+
+
+          </div>
+
           {/* Add more content as needed */}
         </div>
       </section>
