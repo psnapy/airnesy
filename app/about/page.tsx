@@ -19,11 +19,11 @@ const AboutPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
           </p>
           
-          <Image
-              src="/images/tumblr_pu0ndkstCx1uzwgsuo1_400.gif" // Replace this with the actual path to your image
+          <Image className="rounded-xl"
+              src="/images/gif.gif" // Replace this with the actual path to your image
               alt="Description of the image"
               width={500} // Adjust width as needed
-              height={300} // Adjust height as needed
+              height={100} // Adjust height as needed
             />
           
 
