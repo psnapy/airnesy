@@ -18,7 +18,7 @@ const AboutPage = () => {
           </b>
           
           </p>
-          <div  className=" div17  "><p className="textlg1 mb-4  "> <b>  Making your dreams come true every day </b>   </p> </div>
+          <div  className=" div17  "><p className="textlg1 mb-4  "> <b>  Making your dream home come true every day </b>   </p> </div>
           
          
          
