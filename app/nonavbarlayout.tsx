@@ -33,7 +33,7 @@ const NoNavbarLayout = ({ children }: NoNavbarLayoutProps) => {
         </script>
       </Head>
       <body className={nunito.className}>
-        
+      <Navbar2 />
       
           <main className="pb-16 md:pt-28 pt-24">{children}</main>
           <Footer />

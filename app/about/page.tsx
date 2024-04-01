@@ -18,9 +18,10 @@ const AboutPage = () => {
           </b>
           
           </p>
-          <p className="textlg1 mb-4 pl-800 pl-800 "> <b>  Home far away from home making your dreams come true </b>
+          <div  className=" pl-800 pl-800   "><p className="textlg1 mb-4  "> <b>  Home far away from home making your dreams come true </b>   </p> </div>
+          
          
-          </p>
+         
           
 
           <div className="pt-9">
