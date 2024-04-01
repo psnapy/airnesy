@@ -61,13 +61,18 @@ const AboutPage = () => {
           
 
             <div className="pt-6 flex ">
+              <div>
               <Link href="/#">
                 <a className="buttonn">Learn more</a>
               </Link>
+            </div>
 
-              <Link href="/#">
-                <a className="buttonn pl-4">In the news</a>
+            <div className="pl-4">
+            <Link href="/#">
+                <a className="buttonn ">In the news</a>
               </Link>
+
+              </div>
             </div>
 
           </div>
