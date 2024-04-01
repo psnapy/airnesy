@@ -60,9 +60,13 @@ const AboutPage = () => {
             </p>
           
 
-            <div className="pt-4">
-              <Link href="/other-page">
-                <a className="buttonn">Go to Other Page</a>
+            <div className="pt-6 flex ">
+              <Link href="/#">
+                <a className="buttonn">Learn more</a>
+              </Link>
+
+              <Link href="/#">
+                <a className="buttonn">In the news</a>
               </Link>
             </div>
 
