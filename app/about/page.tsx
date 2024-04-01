@@ -19,11 +19,10 @@ const AboutPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
           </p>
           
-          <Image className="rounded-xl"
+          <Image className="gif rounded-xl "
               src="/images/gif.gif" // Replace this with the actual path to your image
               alt="Description of the image"
-              width={500} // Adjust width as needed
-              height={100} // Adjust height as needed
+            
             />
           
 
