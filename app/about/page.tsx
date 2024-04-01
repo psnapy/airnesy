@@ -20,7 +20,7 @@ const AboutPage = () => {
           </p>
           
           <Image
-        src="/images/logo.png"
+        src="/images/static_about-images_image 2337.png   "
         alt="airnesy.com logo"
         
         fill
