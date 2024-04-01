@@ -35,10 +35,10 @@ const AboutPage = () => {
 
           <div className="div17 mt-15 text-left">
           <p className="textlg mb-4 mt-8 "> <b>
-          about us
+          About us
           </b> </p>
 
-          <p>
+          <p className="pt-8">
                Airnesy is the leading real  estate marketplace globalling. airnesy’s ecosystem of products and services is designed to provide a seamless, 
               end-to-end property searching experience, helping renters, shoppers,
                buyers and sellers with every step of their journey. Founded to empower people with information so they could find the right home, 
