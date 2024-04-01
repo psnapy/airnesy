@@ -111,18 +111,13 @@ body {
 
 
 .main-container4 {
-  @apply max-w-[1720px] mx-auto xl:px-0 px-4;
+  @apply max-w-[1750px] mx-auto xl:px-0 px-4;
 
+  padding-left: 2rem; /* Adjust as needed */
+  padding-right: 2rem; /* Adjust as needed */
 
 }
 
-/* Apply padding on large screens */
-@media (min-width: 640px) {
-  .main-container {
-    padding-left: 2rem; /* Adjust as needed */
-    padding-right: 2rem; /* Adjust as needed */
-  }
-}
 
 
 
