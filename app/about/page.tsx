@@ -10,7 +10,7 @@ const AboutPage = () => {
         <Heading
           title=""
           backBtn={false}
-          RootLayout={false}
+          
         />
         <div className="mt-6 ">
           <p className="textlg mb-6"> <b>
