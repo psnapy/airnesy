@@ -2,6 +2,7 @@ import React from "react";
 import NoNavbarLayout from "../nonavbarlayout";
 import Heading from "@/components/Heading";
 import Image from 'next/image';
+import logo from '../static_about-images_image 2337.png';
 
 const AboutPage = () => {
   return (
@@ -18,9 +19,15 @@ const AboutPage = () => {
           <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
           </p>
-          <Image src="./static_about-images_image 2337.png" alt="Footer Logo" width={350} height={150} />
-
-
+          
+          <Image
+        src="../static_about-images_image 2337.png"
+        alt="airnesy.com logo"
+        
+        fill
+        sizes="250px"
+        
+      />
 
           {/* Add more content as needed */}
         </div>
