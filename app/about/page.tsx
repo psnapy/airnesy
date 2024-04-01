@@ -20,7 +20,7 @@ const AboutPage = () => {
           </p>
           
           <Image
-              src="/images/ohana-sea-front-mansion-1.jpg" // Replace this with the actual path to your image
+              src="/images/tumblr_pu0ndkstCx1uzwgsuo1_400.gif" // Replace this with the actual path to your image
               alt="Description of the image"
               width={500} // Adjust width as needed
               height={300} // Adjust height as needed
