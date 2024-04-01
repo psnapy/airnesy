@@ -24,7 +24,7 @@ const AboutPage = () => {
          
           
 
-          <div className="pt-8">
+          <div className="pt-8 pb-8">
           <Image className="gif rounded-xl "
               src="/images/gif.gif" // Replace this with the actual path to your image
               alt="Description of the image"
@@ -38,7 +38,7 @@ const AboutPage = () => {
           About us
           </b> </p>
 
-          <p className="pt-8">
+          <p className="pt-4">
                Airnesy is the leading real  estate marketplace globalling. airnesy’s ecosystem of products and services is designed to provide a seamless, 
               end-to-end property searching experience, helping renters, shoppers,
                buyers and sellers with every step of their journey. Founded to empower people with information so they could find the right home, 
