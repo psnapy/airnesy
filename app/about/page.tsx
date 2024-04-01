@@ -18,12 +18,12 @@ const AboutPage = () => {
           </b>
           
           </p>
-          <p className="textlg1 mb-4 pl-14 pr-14 "> <b>  Home far away from home making your dreams come true </b>
+          <p className="textlg1 mb-4 ml-14 mr-14 "> <b>  Home far away from home making your dreams come true </b>
          
           </p>
           
 
-          <div className="pt-5">
+          <div className="pt-9">
           <Image className="gif rounded-xl "
               src="/images/gif.gif" // Replace this with the actual path to your image
               alt="Description of the image"
