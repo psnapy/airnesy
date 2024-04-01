@@ -7,11 +7,10 @@ const AboutPage = () => {
     <NoNavbarLayout>
       <section className="main-container4">
         <Heading
-          title="About Us"
-          subtitle="Learn more about our company."
+          title="airnesy"
           backBtn={false}
         />
-        <div className="mt-8">
+        <div className="mt-8 text-center items-center">
           <p className="text-lg mb-4">
             Welcome to our website! We are dedicated to providing excellent services.
           </p>
