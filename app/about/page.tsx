@@ -66,7 +66,7 @@ const AboutPage = () => {
               </Link>
 
               <Link href="/#">
-                <a className="buttonn">In the news</a>
+                <a className="buttonn pl-4">In the news</a>
               </Link>
             </div>
 
