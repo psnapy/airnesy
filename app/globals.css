@@ -201,8 +201,8 @@ body {
 }
 
 .gif {
-  width: 400px; /* Adjust size as needed */
-  height: 200px; /* Adjust size as needed */
+  width: 800px; /* Adjust size as needed */
+  height: 400px; /* Adjust size as needed */
   
 
   display: flex;
