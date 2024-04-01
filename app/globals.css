@@ -108,6 +108,28 @@ body {
 
 
 
+
+
+.main-container4 {
+  @apply max-w-[1720px] mx-auto xl:px-0 px-4;
+
+
+}
+
+/* Apply padding on large screens */
+@media (min-width: 640px) {
+  .main-container {
+    padding-left: 2rem; /* Adjust as needed */
+    padding-right: 2rem; /* Adjust as needed */
+  }
+}
+
+
+
+
+
+
+
 .swiper-wrapper {
   @apply md:gap-2 gap-1 justify-between;
 }
