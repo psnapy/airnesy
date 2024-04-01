@@ -110,13 +110,6 @@ body {
 
 
 
-.main-container4 {
-  @apply max-w-[1750px] mx-auto xl:px-0 px-4;
-
-  padding-left: 2rem; /* Adjust as needed */
-  padding-right: 2rem; /* Adjust as needed */
-
-}
 
 
 
