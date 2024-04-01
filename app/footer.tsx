@@ -10,7 +10,7 @@ import { FaInstagram, FaTwitter, FaTiktok, FaFacebookF, FaYoutube, FaReddit, FaD
                          return (
                           <div>
                            <div className='pt-60 pb-60 bg-[#f0f0f0] text-center items-center  '>
-                            <p className="text-lg font-bold pb-5 ">join our community</p>
+                            <p className="textlg2 font-bold pb-5 ">join our community</p>
 
                             <div className="flex items-center justify-center  pl-5 pr-5  space-x-4">
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaInstagram /></a></div>
@@ -31,7 +31,7 @@ import { FaInstagram, FaTwitter, FaTiktok, FaFacebookF, FaYoutube, FaReddit, FaD
      
 
                              <div>
-                           <h1 className=" pt-3 text-lg font-bold">airnesy.com</h1>
+                           <h1 className=" pt-3 textlg1 font-bold">airnesy.com</h1>
                                  <p>&copy; {new Date().getFullYear()} Airnesy Group. All rights reserved.</p>
                                </div>
 

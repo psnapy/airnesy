@@ -12,14 +12,16 @@ const AboutPage = () => {
           backBtn={false}
         />
         <div className="mt-6 ">
-          <p className="textlg mb-6">
-            airnesy.com
+          <p className="textlg mb-6"> <b>
+          airnesy.com
+          </b>
+          
           </p>
-          <p className="textlg mb-4">
-            Home far away from home
+          <p className="textlg1 mb-4"> <b>  Home far away from home  </b>
+           
           </p>
-          <p className="textlg ">
-          making your dreams come true
+          <p className="textlg1 "><b>  making your dreams come true </b>
+         
           </p>
           
 
