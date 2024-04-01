@@ -218,7 +218,9 @@ body {
 
 .textlg1 {  
   font-family: Arial, Helvetica, sans-serif; /* Adjust size as needed */
-  font-size: 26px;
+  font-weight: lighter;
+  
+  font-size: 30px;
 }
 
 
