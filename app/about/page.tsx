@@ -53,8 +53,16 @@ const AboutPage = () => {
             As the most visited, most trusted1 name in the industry, “airnesy
               is searched more often than “real estate.”
             </p>
+          <div className="flex"> 
+            </div>
+             <button className="rounded-xl bg-gray">
+              learn more
+             </button>
           
 
+             <button className="rounded-xl bg-gray">
+              in the news
+             </button>
 
 
           </div>
