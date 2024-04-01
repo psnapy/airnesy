@@ -18,13 +18,13 @@ const AboutPage = () => {
           </b>
           
           </p>
-          <div  className=" div17  "><p className="textlg1 mb-4  "> <b>  Making your dream home come true every day </b>   </p> </div>
+          <div  className=" div17  "><p className="textlg1 mb-4 pb-8 "> <b>  Making your dream home come true every day </b>   </p> </div>
           
          
          
           
 
-          <div className="pt-15">
+          <div className="pt-8">
           <Image className="gif rounded-xl "
               src="/images/gif.gif" // Replace this with the actual path to your image
               alt="Description of the image"
@@ -33,8 +33,8 @@ const AboutPage = () => {
           </div>
 
 
-          <div className="div17 pt-15 text-left">
-          <p className="textlg mb-4 mt-8 "> <b>
+          <div className="div17 pt-8 text-left">
+          <p className="textlg mb-4 pt-8 "> <b>
           About us
           </b> </p>
 
