@@ -53,8 +53,8 @@ const AboutPage = () => {
             As the most visited, most trusted1 name in the industry, “airnesy
               is searched more often than “real estate.”
             </p>
-          <div className="flex"> 
-            </div>
+          <div className="flex pt-8"> 
+            
              <button className="rounded-xl bg-gray">
               learn more
              </button>
@@ -64,7 +64,7 @@ const AboutPage = () => {
               in the news
              </button>
 
-
+             </div>
           </div>
 
           {/* Add more content as needed */}
