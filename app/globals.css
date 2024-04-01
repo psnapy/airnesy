@@ -211,15 +211,18 @@ body {
 }
 
 .textlg {
-  font-size: 24px; /* Adjust size as needed */
+  font-family: 'Times New Roman', Times, serif; /* Adjust size as needed */
+  font-size: 24px;
 }
 
 
-.textlg1 {
-  font-size: 34px; /* Adjust size as needed */
+.textlg1 {  
+  font-family: 'Times New Roman', Times, serif; /* Adjust size as needed */
+  font-size: 28px;
 }
 
 
-.textlg2 {
-  font-size: 44px; /* Adjust size as needed */
+.textlg2 { 
+   font-family: 'Times New Roman', Times, serif; /* Adjust size as needed */
+  font-size: 34px;
 }
