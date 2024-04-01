@@ -20,14 +20,12 @@ const AboutPage = () => {
           </p>
           
           <Image
-        src="/images/stars-sparkle.gif  "
-        alt="airnesy.com logo"
-        
-        
-        sizes="350px"
-      
-      />
-      
+              src="/images/ohana-sea-front-mansion-1.jpg" // Replace this with the actual path to your image
+              alt="Description of the image"
+              width={500} // Adjust width as needed
+              height={300} // Adjust height as needed
+            />
+          
 
           {/* Add more content as needed */}
         </div>
