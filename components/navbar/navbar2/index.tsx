@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
-import Logo from "./Logo";
-import Search from "./Search";
-import Categories from "./Categories";
-import UserMenu from "./UserMenu";
+import Logo from "../Logo";
+import Search from "../Search";
+import Categories from "../Categories";
+import UserMenu from "../UserMenu";
 import { getCurrentUser } from "@/services/user";
 
 interface NavbarProps {}
