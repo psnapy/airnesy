@@ -24,7 +24,7 @@ const AboutPage = () => {
          
           
 
-          <div className="mt-15">
+          <div className="pt-15">
           <Image className="gif rounded-xl "
               src="/images/gif.gif" // Replace this with the actual path to your image
               alt="Description of the image"
@@ -33,7 +33,7 @@ const AboutPage = () => {
           </div>
 
 
-          <div className="div17 mt-15 text-left">
+          <div className="div17 pt-15 text-left">
           <p className="textlg mb-4 mt-8 "> <b>
           About us
           </b> </p>
