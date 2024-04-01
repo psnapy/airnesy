@@ -23,9 +23,9 @@ const AboutPage = () => {
         src="/images/stars-sparkle.gif  "
         alt="airnesy.com logo"
         
-        fill
-        sizes="150px"
-        priority
+        
+        sizes="350px"
+      
       />
       
 
