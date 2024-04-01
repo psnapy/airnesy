@@ -1,22 +1,27 @@
 import React from "react";
 import NoNavbarLayout from "../nonavbarlayout";
 import Heading from "@/components/Heading";
+import Image from 'next/image';
 
 const AboutPage = () => {
   return (
     <NoNavbarLayout>
-      <section className="main-container4">
+      <section className="main-container4 text-center items-center ">
         <Heading
           title="airnesy"
           backBtn={false}
         />
-        <div className="mt-8 text-center items-center">
+        <div className="mt-8 ">
           <p className="text-lg mb-4">
             Welcome to our website! We are dedicated to providing excellent services.
           </p>
           <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
           </p>
+          <Image src="app/static_about-images_image 2337.png" alt="Footer Logo" width={150} height={50} />
+
+
+
           {/* Add more content as needed */}
         </div>
       </section>
