@@ -38,12 +38,12 @@ const AboutPage = () => {
           About us
           </b> </p>
 
-          <p className="pt-4">
-               Airnesy is the leading real  estate marketplace globalling. airnesy’s ecosystem of products and services is designed to provide a seamless, 
-              end-to-end property searching experience, helping renters, shoppers,
-               buyers and sellers with every step of their journey. Founded to empower people with information so they could find the right home, 
-              Zillow is synonymous with real estate. As the most visited, most trusted1 name in the industry, “Zillow”
-              is searched more often than “real estate,”2 and our data indicates 70% of all home buyers and sellers use Zillow at some point in their transaction.
+          <p className="pt-2">
+               Airnesy is the leading real  estate marketplace globally. airnesy’s ecosystem of 
+               products and services is designed to provide a seamless, end-to-end property listing and searching
+                experience, helping renters, shoppers,buyers and sellers with every step of their journey to findind their dream property.
+              Airnesy is synonymous with real estate. As the most visited, most trusted1 name in the industry, “airnesy
+              is searched more often than “real estate.”
           </p>
 
 

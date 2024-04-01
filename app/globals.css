@@ -120,7 +120,7 @@ body {
 
 
 .div17 {
-  @apply max-w-[620px] mx-auto xl:px-0 px-4;
+  @apply max-w-[520px] mx-auto xl:px-0 px-4;
 
  
 }
