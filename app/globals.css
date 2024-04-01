@@ -201,8 +201,8 @@ body {
 }
 
 .gif {
-  width: 800px; /* Adjust size as needed */
-  height: 400px; /* Adjust size as needed */
+  width: 1000px; /* Adjust size as needed */
+  height: 500px; /* Adjust size as needed */
   
 
   display: flex;
@@ -210,6 +210,6 @@ body {
   justify-content: center;
 }
 
-.testlg {
+.textlg {
   font-size: 24px; /* Adjust size as needed */
 }
