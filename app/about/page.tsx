@@ -33,7 +33,7 @@ const AboutPage = () => {
           </div>
 
 
-          <div className="div17 pt-8">
+          <div className="div17 pt-8 text-left">
           <p className="textlg mb-4 mt-8 "> <b>
           about us
           </b> </p>
