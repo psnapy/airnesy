@@ -109,7 +109,7 @@ const AboutPage = () => {
     src="/images/a.gif"
     alt="Right Image"
      // Adjust width as needed
-    height={100} // Remove the height attribute or set it to null
+    height={500} // Remove the height attribute or set it to null
   />
 </div>
 
