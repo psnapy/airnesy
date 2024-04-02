@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <NoNavbarLayout>
       
-      <section className="main-container4 text-center items-center ">
+      <section className="main-container5 text-center items-center ">
         <Heading
           title=""
           backBtn={false}
