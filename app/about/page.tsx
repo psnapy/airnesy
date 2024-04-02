@@ -95,8 +95,13 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/a.jpg"
     alt="Left Image"
-     // Adjust width as needed
-    height={800} // Remove the height attribute or set it to null
+
+
+    width={400}
+    // Adjust width as needed
+   height={500} 
+
+   // Remove the height attribute or set it to null
   />
 </div>
 
@@ -110,6 +115,8 @@ const AboutPage = () => {
     alt="Right Image"
 
     width={400}
+     // Adjust width as needed
+    height={500} 
   />
 </div>
 
