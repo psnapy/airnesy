@@ -115,9 +115,24 @@ body {
   /* Remove padding on small screens */
   padding-left: 2;
   padding-right: 2;
+
 }
 
+@media only screen and (max-width: 640px) {
+  .main-container4 {
+    flex-direction: column;
+    padding-left: 2;
+    padding-right: 2;
+  }
 
+  .main-container4 > div {
+    width: 100%;
+  }
+
+  .main-container4 > div:not(:last-child) {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+}
 
 
 .main-container5 {

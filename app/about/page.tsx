@@ -128,21 +128,7 @@ const AboutPage = () => {
   </div>
 
   {/* CSS for Mobile Layout */}
-  <style jsx>{`
-    @media only screen and (max-width: 640px) {
-      .main-container4 {
-        flex-direction: column;
-      }
-
-      .main-container4 > div {
-        width: 100%;
-      }
-
-      .main-container4 > div:not(:last-child) {
-        margin-bottom: 20px; /* Adjust as needed */
-      }
-    }
-  `}</style>
+  
 </section>
 
 
