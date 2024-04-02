@@ -309,4 +309,11 @@ font-weight: lighter;
 
 .fontsizee { 
  font-size: 20px;
+ color: #290916; /* Default color */
+ transition: background-color 0.3s, color 0.3s; /* Transition effect */
+}
+
+.fontsizee {
+ background-color: #ccc; /* Change background color on hover */
+ color: #290911; /* Change text color on hover */
 }

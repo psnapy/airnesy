@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = async () => {
 
               
             <Link href="https://www.airnesy.com/" className=" ">
-                <a className="buttonnn ">Try it out</a>
+                <a className="buttonnn ">Try it</a>
               </Link>
 
               </div>
