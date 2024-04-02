@@ -110,14 +110,14 @@ const AboutPage = () => {
     src="/images/gif.gif"
     alt="Center Top Image"
     width={200} // Adjust width as needed
-    height={400} // Adjust height as needed
+    height={100} // Adjust height as needed
   />
   <Image
     className="rounded-xl"
     src="/images/gif.gif"
     alt="Center Bottom Image"
     width={200} // Adjust width as needed
-    height={400} // Adjust height as needed
+    height={100} // Adjust height as needed
   />
 </div>
 
