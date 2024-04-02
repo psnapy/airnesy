@@ -93,7 +93,7 @@ const AboutPage = () => {
                   <div className="flex justify-center items-center">
   <Image
     className="rounded-xl"
-    src="/images/a.png"
+    src="/images/d.jpg"
     alt="Left Image"
     width={320}
    height={500} 
@@ -103,14 +103,14 @@ const AboutPage = () => {
 <div className="flex flex-col justify-center items-center">
   <Image
     className="rounded-xl mb-4"
-    src="/images/a.gif"
+    src="/images/g.jpg"
     alt="Center Top Image"
     width={320} // Adjust width as needed
   // Remove the height attribute or set it to null
   />
   <Image
     className="rounded-xl"
-    src="/images/a.gif"
+    src="/images/h.jpg"
     alt="Center Bottom Image"
     width={320} // Adjust width as needed
     // Remove the height attribute or set it to null
