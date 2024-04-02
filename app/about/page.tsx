@@ -60,7 +60,7 @@ const AboutPage = () => {
             </p>
           
 
-            <div className="pt-6 flex ">
+            <div className="pt-6 pb-8 flex ">
               <div>
               <Link href="/#">
                 <a className="buttonn">Learn more</a>
@@ -85,8 +85,8 @@ const AboutPage = () => {
 
 
 
-      <section className="pt-8">
-            <div className="pt-8">
+      <section className="pt-10">
+            <div className="pt-10">
               <div className="section2 pt-10 pb-10">
                 <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
