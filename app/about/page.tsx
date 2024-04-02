@@ -10,13 +10,7 @@ import Link from 'next/link';
 
 const AboutPage = () => {
   return (
-    <div>
-
-      <div className="pl-2 pr-2 mt-0">
-
-heder
-
-      </div>
+    <NoNavbarLayout>
       
       <section className="main-container4 text-center items-center ">
         <Heading
@@ -198,7 +192,7 @@ heder
 
 
 
-    </div>
+    </NoNavbarLayout>
   );
 };
 
