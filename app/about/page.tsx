@@ -84,50 +84,60 @@ const AboutPage = () => {
 
  
 
-
       <section className="pt-10">
   <div className="pt-10">
     <div className="section2 pt-10 pb-10">
-      <div className="flex justify-between main-container4">
-        {/* Left Column */}
-        <div className="flex justify-center items-center">
-          <Image
-            className="rounded-xl"
-            src="/images/d.jpg"
-            alt="Left Image"
-            width={310}
-          />
-        </div>
+      {/* Left Image */}
+      <div className="w-full mb-4">
+        <Image
+          className="rounded-xl"
+          src="/images/d.jpg"
+          alt="Left Image"
+          layout="responsive"
+          width={1920}
+          height={1080}
+        />
+      </div>
 
-        {/* Center Column */}
-        <div className="flex flex-col justify-center items-center mb-4">
-          <Image
-            className="rounded-xl mb-4"
-            src="/images/g.jpg"
-            alt="Center Top Image"
-            width={340}
-          />
-          <Image
-            className="rounded-xl"
-            src="/images/h.jpg"
-            alt="Center Bottom Image"
-            width={340}
-          />
-        </div>
+      {/* Center Top Image */}
+      <div className="w-full mb-4">
+        <Image
+          className="rounded-xl"
+          src="/images/g.jpg"
+          alt="Center Top Image"
+          layout="responsive"
+          width={1920}
+          height={1080}
+        />
+      </div>
 
-        {/* Right Column */}
-        <div className="flex justify-center items-center">
-          <Image
-            className="rounded-xl"
-            src="/images/a.png"
-            alt="Right Image"
-            width={310}
-          />
-        </div>
+      {/* Center Bottom Image */}
+      <div className="w-full mb-4">
+        <Image
+          className="rounded-xl"
+          src="/images/h.jpg"
+          alt="Center Bottom Image"
+          layout="responsive"
+          width={1920}
+          height={1080}
+        />
+      </div>
+
+      {/* Right Image */}
+      <div className="w-full">
+        <Image
+          className="rounded-xl"
+          src="/images/a.png"
+          alt="Right Image"
+          layout="responsive"
+          width={1920}
+          height={1080}
+        />
       </div>
     </div>
   </div>
 </section>
+
 
      
 
