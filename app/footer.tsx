@@ -12,7 +12,7 @@ import { FaInstagram, FaTwitter, FaTiktok, FaFacebookF, FaYoutube, FaReddit, FaD
                            <div className='pt-60 pb-60 bg-[#f0f0f0] text-center items-center  '>
                             <p className="textlg2 font-bold pb-3 ">join our community</p>
 
-                            <div className="flex items-center justify-center  pl-5 pr-5  space-x-4">
+                            <div className="flex items-center justify-center  pl-5 pr-5  space-x-2">
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaInstagram /></a></div>
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTwitter /></a></div>
     <div className="icon-circle"><a href="#" className="hover:text-gray-400"><FaTiktok /></a></div>
