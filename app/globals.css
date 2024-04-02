@@ -69,9 +69,9 @@ body {
 .main-container {
   @apply max-w-[1720px] mx-auto xl:px-0 px-4;
 
-  /* Remove padding on small screens */
-  padding-left: 0;
-  padding-right: 0;
+
+  padding-left: 2rem; /* Adjust as needed */
+  padding-right: 2rem; /* Adjust as needed */
 }
 
 /* Apply padding on large screens */
@@ -91,7 +91,7 @@ body {
 
 @media (max-width: 640px) {
   .rounded-lg {
-    border-radius: 0; /* Remove rounded corners for small screens */
+    border-radius: 10; /* Remove rounded corners for small screens */
   }
 }
 
