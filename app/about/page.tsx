@@ -137,6 +137,44 @@ const AboutPage = () => {
 
 
 
+          <div className="div17 pt-8 text-left">
+          <p className="textlg mb-4 pt-8 "> <b>
+          The Founders
+          </b> </p>
+
+          <p className="pt-2">
+               Airnesy is the leading real  estate marketplace globally. airnesy’s ecosystem of 
+               products and services is designed to provide a seamless, end-to-end property listing and searching
+                experience, helping renters, shoppers,buyers and sellers with every step of their journey to findind their dream property.
+                </p>  
+              
+              
+                <p className="pt-3">
+                Airnesy is synonymous with real estate.
+                </p>
+            <p className="pt-3">
+
+            As the most visited, most trusted1 name in the industry, “airnesy
+              is searched more often than “real estate.”
+            </p>
+          
+
+            <div className="pt-6 flex ">
+              <div>
+              <Link href="/#">
+                <a className="buttonn">Join us</a>
+              </Link>
+            </div>
+
+         
+
+            
+            </div>
+
+          </div>
+
+
+
 
 
 
