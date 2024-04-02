@@ -108,8 +108,10 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/a.gif"
     alt="Right Image"
+
+    width={200}
      // Adjust width as needed
-    height={500} // Remove the height attribute or set it to null
+    height={800} // Remove the height attribute or set it to null
   />
 </div>
 
