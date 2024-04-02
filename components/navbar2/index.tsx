@@ -12,14 +12,14 @@ const Navbar: React.FC<NavbarProps> = async () => {
         <div className="flex main-container5 flex-row justify-between items-center gap-3 md:gap-0">
         <p>
 
-<Link href="https://www.airnesy.com/" className="hover:text-gray-700 " >
+<Link href="https://www.airnesy.com/" className="hover:text-gray-900  fontsizee" >
   <a> <b>Airnesy.com</b></a>
 </Link>
 </p>
 
 <div className="pl-4">
             <Link href="https://www.airnesy.com/">
-                <a className="buttonn ">Careers</a>
+                <a className="buttonnnn ">Careers</a>
               </Link>
 
               
