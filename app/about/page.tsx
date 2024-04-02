@@ -100,23 +100,7 @@ const AboutPage = () => {
   />
 </div>
 
-{/* Center Column */}
-<div className="flex flex-col justify-center items-center">
-  <Image
-    className="rounded-xl mb-4"
-    src="/images/gif.gif"
-    alt="Center Top Image"
-     // Adjust width as needed
-    height={1000} // Remove the height attribute or set it to null
-  />
-  <Image
-    className="rounded-xl"
-    src="/images/gif.gif"
-    alt="Center Bottom Image"
-    // Adjust width as needed
-    height={1000} // Remove the height attribute or set it to null
-  />
-</div>
+
 
 {/* Right Column */}
 <div className="flex justify-center items-center">
