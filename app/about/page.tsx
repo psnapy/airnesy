@@ -44,7 +44,7 @@ const AboutPage = () => {
           </b> </p>
 
           <p className="pt-2">
-               Airnesy is the leading real  estate marketplace globally. airnesy’s ecosystem of 
+               Airnesy is the leading real estate marketplace globally. airnesy’s ecosystem of 
                products and services is designed to provide a seamless, end-to-end property listing and searching
                 experience, helping renters, shoppers,buyers and sellers with every step of their journey to findind their dream property.
                 </p>  
@@ -150,15 +150,16 @@ const AboutPage = () => {
           <p className="pt-3">
              He is student at Zetech University pursuing software engineering and an expert across different domains.
              Prior to airnesy, he led development of Farmazon, a farmers platform that offers credit, loans, farmer education,
-              weather fore cast data and an agricultural marketplace at the heart of Africa.
+              weather forecast data and an agricultural marketplace at the heart of Africa.
 
                 </p>  
               
               
                 <p className="pt-3">
 
-                Alexander was fascinated with the way software would help brigde the gap in the real easte industr. 
-                By helping save on time and the hustle and bustle of house hunting,he followed his passion and geared the development of airnesy, the only name in real-easte. 
+                Alexander was fascinated with the way software would help brigde the gap in the real easte industry. 
+                By helping save on time and the hustle and bustle of house hunting, He followed his passion and geared the development of airnesy,
+                 the only name in real-easte. 
                
               
               </p>

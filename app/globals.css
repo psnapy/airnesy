@@ -198,8 +198,8 @@ body {
   width: 0;
 }
 .icon-circle {
-  width: 40px; /* Adjust size as needed */
-  height: 40px; /* Adjust size as needed */
+  width: 35px; /* Adjust size as needed */
+  height: 35px; /* Adjust size as needed */
   background-color: black;
   border-radius: 50%; /* Makes it a circle */
   display: flex;
@@ -242,7 +242,7 @@ body {
 
 .textlg2 { 
    font-family:  Arial, Helvetica, sans-serif; /* Adjust size as needed */
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .section2 {
