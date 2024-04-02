@@ -90,48 +90,44 @@ const AboutPage = () => {
               <div className="section2 pt-4 pb-4">
                 <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
-                  
-
-{/* Left Column */}
-<div className=" flex justify-center items-center">
+                  <div className="flex justify-center items-center">
   <Image
     className="rounded-xl"
     src="/images/a.jpg"
     alt="Left Image"
     width={300} // Adjust width as needed
-    height={1500} // Adjust height as needed
+   // Remove the height attribute or set it to null
   />
 </div>
 
 {/* Center Column */}
-<div className=" flex flex-col justify-center items-center">
+<div className="flex flex-col justify-center items-center">
   <Image
     className="rounded-xl mb-4"
     src="/images/gif.gif"
     alt="Center Top Image"
     width={300} // Adjust width as needed
-    height={450} // Adjust height as needed
+    // Remove the height attribute or set it to null
   />
   <Image
     className="rounded-xl"
     src="/images/gif.gif"
     alt="Center Bottom Image"
     width={300} // Adjust width as needed
-    height={450} // Adjust height as needed
+ // Remove the height attribute or set it to null
   />
 </div>
 
 {/* Right Column */}
-<div className=" flex justify-center items-center">
+<div className="flex justify-center items-center">
   <Image
     className="rounded-xl"
     src="/images/a.jpg"
     alt="Right Image"
     width={300} // Adjust width as needed
-    height={1500} // Adjust height as needed
+   // Remove the height attribute or set it to null
   />
 </div>
-
 
 
                 </div>
