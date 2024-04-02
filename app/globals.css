@@ -74,13 +74,6 @@ body {
   padding-right: 2rem; /* Adjust as needed */
 }
 
-/* Apply padding on large screens */
-@media (min-width: 640px) {
-  .main-container {
-    padding-left: 2px; /* Adjust as needed */
-    padding-right: 2px; /* Adjust as needed */
-  }
-}
 
 
 

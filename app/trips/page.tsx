@@ -4,6 +4,7 @@ import EmptyState from "@/components/EmptyState";
 import Heading from "@/components/Heading";
 import ListingCard from "@/components/ListingCard";
 import LoadMore from "@/components/LoadMore";
+import Navbar from "@/components/navbar";
 
 import { getCurrentUser } from "@/services/user";
 import { getReservations } from "@/services/reservation";
@@ -30,6 +31,7 @@ const TripsPage = async () => {
 
   return (
     <section className="main-container3">
+       <Navbar />
       <Heading
         title="Tours"
         subtitle="properties you have toured and where you're going."
