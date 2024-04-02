@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import "react-loading-skeleton/dist/skeleton.css";
-import Navbar from "@/components/navbar";
+import Navbar3 from "@/components/navbar3";
 
 import Providers from "@/components/Provider";
 import Head from 'next/head';
@@ -44,13 +44,13 @@ export default function RootLayout({
       </Head>
 
 
-    
+      
 
      
       
       <body className={nunito.className}>
         <Providers>
-         
+        <Navbar3 />
           <main className="pb-16 md:pt-28 pt-24">{children}</main>
 
 
