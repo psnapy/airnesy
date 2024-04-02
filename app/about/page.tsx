@@ -92,10 +92,10 @@ const AboutPage = () => {
                   {/* Left Column */}
                   <div className="w-1/4">
                     <Image className=" rounded-xl   "
-                       src="/images/gif.gif" // Replace with path to left image
+                       src="/images/a.jpg" // Replace with path to left image
                       alt="Left Image"
                       width={200} // Adjust width as needed
-                      height={400} // Adjust height as needed
+                      height={500} // Adjust height as needed
                     />
                   </div>
                   
@@ -118,10 +118,10 @@ const AboutPage = () => {
                   {/* Right Column */}
                   <div className="w-1/4">
                     <Image  className=" rounded-xl   "
-                     src="/images/gif.gif" // Replace with path to right image
+                     src="/images/a.jpg" // Replace with path to right image
                       alt="Right Image"
                       width={200} // Adjust width as needed
-                      height={400} // Adjust height as needed
+                      height={500} // Adjust height as needed
                     />
                   </div>
                 </div>
