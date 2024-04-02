@@ -163,7 +163,7 @@ body {
 
 .buttonnn:hover {
   background-color: #0e0d0d; /* Change background color on hover */
-  color: #000; /* Change text color on hover */
+  color: #ccc; /* Change text color on hover */
 }
 
 
@@ -177,7 +177,7 @@ body {
   transition: background-color 0.3s, color 0.3s; /* Transition effect */
 }
 
-.buttonn:hover {
+.buttonnnn:hover {
   background-color: #ccc; /* Change background color on hover */
   color: #000; /* Change text color on hover */
 }
