@@ -105,14 +105,14 @@ const AboutPage = () => {
     className="rounded-xl mb-4"
     src="/images/g.jpg"
     alt="Center Top Image"
-    width={320} // Adjust width as needed
+    width={340} // Adjust width as needed
   // Remove the height attribute or set it to null
   />
   <Image
     className="rounded-xl"
     src="/images/h.jpg"
     alt="Center Bottom Image"
-    width={320} // Adjust width as needed
+    width={340} // Adjust width as needed
     // Remove the height attribute or set it to null
   />
 </div>
