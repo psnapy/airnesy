@@ -87,7 +87,7 @@ const AboutPage = () => {
 
       <section className="pt-8">
             <div className="pt-8">
-              <div className="section2 pt-4 pb-4">
+              <div className="section2 pt-8 pb-8">
                 <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
                   <div className="flex justify-center items-center">
