@@ -142,20 +142,32 @@ const AboutPage = () => {
           The Founders
           </b> </p>
 
+
           <p className="pt-2">
-               Airnesy is the leading real  estate marketplace globally. airnesy’s ecosystem of 
-               products and services is designed to provide a seamless, end-to-end property listing and searching
-                experience, helping renters, shoppers,buyers and sellers with every step of their journey to findind their dream property.
+                Alexander Mbelenzi is the Founder and CEO of airnesy Group .
+                </p>
+
+          <p className="pt-3">
+             He is student at Zetech University pursuing software engineering and an expert across different domains.
+             Prior to airnesy, he led development of Farmazon, a farmers platform that offers credit, loans, farmer education,
+              weather fore cast data and an agricultural marketplace at the heart of Africa.
+
                 </p>  
               
               
                 <p className="pt-3">
-                Airnesy is synonymous with real estate.
-                </p>
+
+                Alexander was fascinated with the way software would help brigde the gap in the real easte industr. 
+                By helping save on time and the hustle and bustle of house hunting,he followed his passion and geared the development of airnesy, the only name in real-easte. 
+               
+              
+              </p>
+
+
+               
             <p className="pt-3">
 
-            As the most visited, most trusted1 name in the industry, “airnesy
-              is searched more often than “real estate.”
+            He is committed to pushing the capabilities of technology in real estate for the benefit of every person.
             </p>
           
 
