@@ -7,7 +7,7 @@ const Navbar: React.FC<NavbarProps> = async () => {
   const user = await getCurrentUser();
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white z-10 pt-2 ">
+    <header className="fixed top-0 left-0 w-full bg-white z-10 pt-4 ">
       <nav className="py-3 ">
         <div className="flex main-container5 flex-row justify-between items-center gap-3 md:gap-0">
         <p>
@@ -18,7 +18,17 @@ const Navbar: React.FC<NavbarProps> = async () => {
 </p>
 
 <div className="pl-4 ">
-            <Link href="https://www.airnesy.com/">
+
+<Link href="https://www.airnesy.com/" className="pl-4">
+                <a className="buttonnnn ">Blog</a>
+              </Link>
+
+              <Link href="https://www.airnesy.com/" className="pl-4">
+                <a className="buttonnnn ">News</a>
+              </Link>
+
+
+            <Link href="https://www.airnesy.com/" className="pl-4">
                 <a className="buttonnnn ">Careers</a>
               </Link>
 
