@@ -10,7 +10,14 @@ import Link from 'next/link';
 
 const AboutPage = () => {
   return (
-    <NoNavbarLayout>
+    <div>
+
+      <div>
+
+heder
+
+      </div>
+      
       <section className="main-container4 text-center items-center ">
         <Heading
           title=""
@@ -191,7 +198,7 @@ const AboutPage = () => {
 
 
 
-    </NoNavbarLayout>
+    </div>
   );
 };
 
