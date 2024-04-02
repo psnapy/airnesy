@@ -17,7 +17,11 @@ const Navbar: React.FC<NavbarProps> = async () => {
 </Link>
 </p>
 
-<div className="pl-4 ">
+<div className=" ">
+
+<Link href="https://www.airnesy.com/" className="pl-2 ">
+                <a className="buttonnnn ">Blog</a>
+              </Link>
 
 <Link href="https://www.airnesy.com/" className="pl-2 ">
                 <a className="buttonnnn ">Careers</a>
