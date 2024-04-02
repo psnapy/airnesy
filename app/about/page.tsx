@@ -87,7 +87,7 @@ const AboutPage = () => {
 
       <section className="pt-8">
             <div className="pt-8">
-              <div className="section2 pt-4">
+              <div className="section2 pt-4 pb-4">
                 <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
                   
@@ -99,7 +99,7 @@ const AboutPage = () => {
     src="/images/a.jpg"
     alt="Left Image"
     width={300} // Adjust width as needed
-    height={1200} // Adjust height as needed
+    height={1500} // Adjust height as needed
   />
 </div>
 
@@ -128,7 +128,7 @@ const AboutPage = () => {
     src="/images/a.jpg"
     alt="Right Image"
     width={300} // Adjust width as needed
-    height={1200} // Adjust height as needed
+    height={1500} // Adjust height as needed
   />
 </div>
 
