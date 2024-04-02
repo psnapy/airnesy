@@ -103,14 +103,14 @@ const AboutPage = () => {
 <div className="flex flex-col justify-center items-center">
   <Image
     className="rounded-xl mb-4"
-    src="/images/gif.gif"
+    src="/images/a.gif"
     alt="Center Top Image"
     width={320} // Adjust width as needed
   // Remove the height attribute or set it to null
   />
   <Image
     className="rounded-xl"
-    src="/images/gif.gif"
+    src="/images/a.gif"
     alt="Center Bottom Image"
     width={320} // Adjust width as needed
     // Remove the height attribute or set it to null
