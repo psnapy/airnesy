@@ -96,7 +96,7 @@ const AboutPage = () => {
     src="/images/a.jpg"
     alt="Left Image"
      // Adjust width as needed
-    height={1500} // Remove the height attribute or set it to null
+    height={1100} // Remove the height attribute or set it to null
   />
 </div>
 
@@ -109,7 +109,7 @@ const AboutPage = () => {
     src="/images/a.jpg"
     alt="Right Image"
      // Adjust width as needed
-    height={1500} // Remove the height attribute or set it to null
+    height={1100} // Remove the height attribute or set it to null
   />
 </div>
 
