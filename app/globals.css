@@ -198,8 +198,8 @@ body {
   width: 0;
 }
 .icon-circle {
-  width: 35px; /* Adjust size as needed */
-  height: 35px; /* Adjust size as needed */
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
   background-color: black;
   border-radius: 50%; /* Makes it a circle */
   display: flex;
@@ -209,7 +209,7 @@ body {
 
 .icon-circle a {
   color: white; /* Icon color */
-  font-size: 20px; /* Adjust size as needed */
+  font-size: 18px; /* Adjust size as needed */
 }
 
 .icon-circle a:hover {
