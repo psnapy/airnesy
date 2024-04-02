@@ -95,7 +95,7 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/d.jpg"
     alt="Left Image"
-    width={320}
+    width={310}
    height={500} 
   />
 </div>
@@ -123,7 +123,7 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/a.png"
     alt="Right Image"
-    width={320}
+    width={310}
     height={500} 
   />
 </div>
