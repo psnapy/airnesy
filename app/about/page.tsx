@@ -97,7 +97,7 @@ const AboutPage = () => {
     alt="Left Image"
 
 
-    width={400}
+    width={200}
     // Adjust width as needed
    height={500} 
 
@@ -114,7 +114,7 @@ const AboutPage = () => {
     src="/images/a.jpg"
     alt="Right Image"
 
-    width={400}
+    width={200}
      // Adjust width as needed
     height={500} 
   />
