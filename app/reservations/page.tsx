@@ -4,7 +4,7 @@ import EmptyState from "@/components/EmptyState";
 import Heading from "@/components/Heading";
 import ListingCard from "@/components/ListingCard";
 import LoadMore from "@/components/LoadMore";
-
+import Navbar from "@/components/navbar";
 import { getCurrentUser } from "@/services/user";
 import { getReservations } from "@/services/reservation";
 import { getFavorites } from "@/services/favorite";
@@ -29,6 +29,7 @@ const ReservationPage = async () => {
 
   return (
     <section className="main-container3">
+<Navbar />
       <Heading title="Tour bookings" subtitle="Bookings on your properties" backBtn/>
       <div className=" mt-8 md:mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 md:gap-8 gap-4">
         {listings.map((listing) => {
