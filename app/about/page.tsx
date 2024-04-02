@@ -95,8 +95,8 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/a.jpg"
     alt="Left Image"
-    width={300} // Adjust width as needed
-   // Remove the height attribute or set it to null
+     // Adjust width as needed
+    height={1000} // Remove the height attribute or set it to null
   />
 </div>
 
@@ -106,15 +106,15 @@ const AboutPage = () => {
     className="rounded-xl mb-4"
     src="/images/gif.gif"
     alt="Center Top Image"
-    width={300} // Adjust width as needed
-    // Remove the height attribute or set it to null
+     // Adjust width as needed
+    height={1000} // Remove the height attribute or set it to null
   />
   <Image
     className="rounded-xl"
     src="/images/gif.gif"
     alt="Center Bottom Image"
-    width={300} // Adjust width as needed
- // Remove the height attribute or set it to null
+    // Adjust width as needed
+    height={1000} // Remove the height attribute or set it to null
   />
 </div>
 
@@ -124,8 +124,8 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/a.jpg"
     alt="Right Image"
-    width={300} // Adjust width as needed
-   // Remove the height attribute or set it to null
+     // Adjust width as needed
+    height={1000} // Remove the height attribute or set it to null
   />
 </div>
 
