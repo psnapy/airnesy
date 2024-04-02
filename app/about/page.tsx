@@ -91,23 +91,23 @@ const AboutPage = () => {
                 <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
                   <div className="w-1/4">
-                    <Image
+                    <Image className=" rounded-xl   "
                        src="/images/gif.gif" // Replace with path to left image
                       alt="Left Image"
                       width={200} // Adjust width as needed
-                      height={200} // Adjust height as needed
+                      height={400} // Adjust height as needed
                     />
                   </div>
                   
                   {/* Center Column */}
                   <div className="w-1/2 flex flex-col justify-center items-center">
-                    <Image
+                    <Image className=" rounded-xl   "
                       src="/images/gif.gif"// Replace with path to top center image
                       alt="Center Top Image"
                       width={200} // Adjust width as needed
                       height={200} // Adjust height as needed
                     />
-                    <Image
+                    <Image className=" rounded-xl   "
                    src="/images/gif.gif" // Replace with path to bottom center image
                       alt="Center Bottom Image"
                       width={200} // Adjust width as needed
@@ -117,11 +117,11 @@ const AboutPage = () => {
                   
                   {/* Right Column */}
                   <div className="w-1/4">
-                    <Image
+                    <Image  className=" rounded-xl   "
                      src="/images/gif.gif" // Replace with path to right image
                       alt="Right Image"
                       width={200} // Adjust width as needed
-                      height={200} // Adjust height as needed
+                      height={400} // Adjust height as needed
                     />
                   </div>
                 </div>
