@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <div>
 
-      <div>
+      <div className="pl-2 pr-2 mt-0">
 
 heder
 
