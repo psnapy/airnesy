@@ -85,57 +85,50 @@ const AboutPage = () => {
  
 
 
-
       <section className="pt-10">
-            <div className="pt-10">
-              <div className="section2 pt-10 pb-10">
-                <div className="flex justify-between  main-container4  ">
-                  {/* Left Column */}
-                  <div className="flex justify-center items-center">
-  <Image
-    className="rounded-xl"
-    src="/images/d.jpg"
-    alt="Left Image"
-    width={310}
-   height={1000} 
-  />
-</div>
+  <div className="pt-10">
+    <div className="section2 pt-10 pb-10">
+      <div className="flex justify-between main-container4">
+        {/* Left Column */}
+        <div className="flex justify-center items-center">
+          <Image
+            className="rounded-xl"
+            src="/images/d.jpg"
+            alt="Left Image"
+            width={310}
+          />
+        </div>
 
-<div className="flex flex-col justify-center items-center">
-  <Image
-    className="rounded-xl mb-4"
-    src="/images/g.jpg"
-    alt="Center Top Image"
-    width={340}
-    height={500}    // Adjust width as needed
-  // Remove the height attribute or set it to null
-  />
-  <Image
-    className="rounded-xl"
-    src="/images/h.jpg"
-    alt="Center Bottom Image"
-    width={340}
-    height={500}  // Adjust width as needed
-    // Remove the height attribute or set it to null
-  />
-</div>
+        {/* Center Column */}
+        <div className="flex flex-col justify-center items-center mb-4">
+          <Image
+            className="rounded-xl mb-4"
+            src="/images/g.jpg"
+            alt="Center Top Image"
+            width={340}
+          />
+          <Image
+            className="rounded-xl"
+            src="/images/h.jpg"
+            alt="Center Bottom Image"
+            width={340}
+          />
+        </div>
 
-{/* Right Column */}
-<div className="flex justify-center items-center">
-  <Image
-    className="rounded-xl"
-    src="/images/a.png"
-    alt="Right Image"
-    width={310}
-    height={1000} 
-  />
-</div>
+        {/* Right Column */}
+        <div className="flex justify-center items-center">
+          <Image
+            className="rounded-xl"
+            src="/images/a.png"
+            alt="Right Image"
+            width={310}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-
-                </div>
-              </div>
-            </div>
-          </section>
      
 
 
