@@ -90,40 +90,50 @@ const AboutPage = () => {
               <div className="section2 pt-4">
                 <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
-                  <div className="w-1/4">
-                    <Image className=" rounded-xl   "
-                       src="/images/a.jpg" // Replace with path to left image
-                      alt="Left Image"
-                      width={500} // Adjust width as needed
-                      height={1000} // Adjust height as needed
-                    />
-                  </div>
                   
-                  {/* Center Column */}
-                  <div className="w-1/2 flex flex-col justify-center items-center">
-                    <Image className=" rounded-xl   "
-                      src="/images/gif.gif"// Replace with path to top center image
-                      alt="Center Top Image"
-                      width={200} // Adjust width as needed
-                      height={200} // Adjust height as needed
-                    />
-                    <Image className=" rounded-xl   "
-                   src="/images/gif.gif" // Replace with path to bottom center image
-                      alt="Center Bottom Image"
-                      width={200} // Adjust width as needed
-                      height={200} // Adjust height as needed
-                    />
-                  </div>
-                  
-                  {/* Right Column */}
-                  <div className="w-1/4">
-                    <Image  className=" rounded-xl   "
-                     src="/images/a.jpg" // Replace with path to right image
-                      alt="Right Image"
-                      width={500} // Adjust width as needed
-                      height={1000} // Adjust height as needed
-                    />
-                  </div>
+
+{/* Left Column */}
+<div className="w-1/4 flex justify-center items-center">
+  <Image
+    className="rounded-xl"
+    src="/images/a.jpg"
+    alt="Left Image"
+    width={200} // Adjust width as needed
+    height={400} // Adjust height as needed
+  />
+</div>
+
+{/* Center Column */}
+<div className="w-1/2 flex flex-col justify-center items-center">
+  <Image
+    className="rounded-xl mb-4"
+    src="/images/gif.gif"
+    alt="Center Top Image"
+    width={300} // Adjust width as needed
+    height={300} // Adjust height as needed
+  />
+  <Image
+    className="rounded-xl"
+    src="/images/gif.gif"
+    alt="Center Bottom Image"
+    width={300} // Adjust width as needed
+    height={300} // Adjust height as needed
+  />
+</div>
+
+{/* Right Column */}
+<div className="w-1/4 flex justify-center items-center">
+  <Image
+    className="rounded-xl"
+    src="/images/a.jpg"
+    alt="Right Image"
+    width={200} // Adjust width as needed
+    height={400} // Adjust height as needed
+  />
+</div>
+
+
+
                 </div>
               </div>
             </div>
