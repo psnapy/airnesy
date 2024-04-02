@@ -106,7 +106,7 @@ const AboutPage = () => {
 <div className="flex justify-center items-center">
   <Image
     className="rounded-xl"
-    src="/images/a.gif"
+    src="/images/a.jpg"
     alt="Right Image"
 
     width={200}
