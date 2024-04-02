@@ -94,8 +94,8 @@ const AboutPage = () => {
                     <Image className=" rounded-xl   "
                        src="/images/a.jpg" // Replace with path to left image
                       alt="Left Image"
-                      width={200} // Adjust width as needed
-                      height={500} // Adjust height as needed
+                      width={500} // Adjust width as needed
+                      height={1000} // Adjust height as needed
                     />
                   </div>
                   
@@ -120,8 +120,8 @@ const AboutPage = () => {
                     <Image  className=" rounded-xl   "
                      src="/images/a.jpg" // Replace with path to right image
                       alt="Right Image"
-                      width={200} // Adjust width as needed
-                      height={500} // Adjust height as needed
+                      width={500} // Adjust width as needed
+                      height={1000} // Adjust height as needed
                     />
                   </div>
                 </div>
