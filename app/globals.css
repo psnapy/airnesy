@@ -241,7 +241,7 @@ body {
 
 
 .textlg1 {  
-  font-family: serif; /* Adjust size as needed */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Adjust size as needed */
 font-weight: lighter;
   
   font-size: 40px;
