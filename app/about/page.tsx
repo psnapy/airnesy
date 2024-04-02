@@ -137,7 +137,7 @@ const AboutPage = () => {
 
 
 
-          <div className="div17 pt-8 text-left">
+          <div className="div17 pt-10 pb-10 text-left">
           <p className="textlg mb-4 pt-8 "> <b>
           The Founders
           </b> </p>
