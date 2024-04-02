@@ -87,7 +87,7 @@ const AboutPage = () => {
 
       <section className="pt-8">
             <div className="pt-8">
-              <div className="section2 pt-8 pb-8">
+              <div className="section2 pt-10 pb-10">
                 <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
                   <div className="flex justify-center items-center">
@@ -95,17 +95,27 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/a.png"
     alt="Left Image"
-
-
     width={320}
-    // Adjust width as needed
    height={500} 
-
-   // Remove the height attribute or set it to null
   />
 </div>
 
-
+<div className="flex flex-col justify-center items-center">
+  <Image
+    className="rounded-xl mb-4"
+    src="/images/gif.gif"
+    alt="Center Top Image"
+    width={320} // Adjust width as needed
+  // Remove the height attribute or set it to null
+  />
+  <Image
+    className="rounded-xl"
+    src="/images/gif.gif"
+    alt="Center Bottom Image"
+    width={320} // Adjust width as needed
+    // Remove the height attribute or set it to null
+  />
+</div>
 
 {/* Right Column */}
 <div className="flex justify-center items-center">
@@ -113,9 +123,7 @@ const AboutPage = () => {
     className="rounded-xl"
     src="/images/a.png"
     alt="Right Image"
-
     width={320}
-     // Adjust width as needed
     height={500} 
   />
 </div>
