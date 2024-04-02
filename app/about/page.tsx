@@ -39,7 +39,7 @@ const AboutPage = () => {
 
 
           <div className="div17 pt-8 text-left">
-          <p className="textlg mb-4 pt-8 "> <b>
+          <p className="textlg pb-2 pt-8 "> <b>
           About us
           </b> </p>
 
@@ -138,7 +138,7 @@ const AboutPage = () => {
 
 
           <div className="div17 pt-10 pb-10 text-left">
-          <p className="textlg mb-4 pt-8 "> <b>
+          <p className="textlg pb-2 pt-10 "> <b>
           The Founders
           </b> </p>
 
