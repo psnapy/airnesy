@@ -248,9 +248,9 @@ font-weight: lighter;
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 540px) {
   .textlg1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
