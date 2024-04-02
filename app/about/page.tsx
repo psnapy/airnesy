@@ -83,12 +83,13 @@ const AboutPage = () => {
 
       <section className="pt-8">
 
-<div className="section2 pt-8">
+<div className="pt-8">
+<div className="section2 pt-4">
 
 <p className="">
   hhhbhjbvhbhj
 </p>
-
+</div>
 
 
 </div>
