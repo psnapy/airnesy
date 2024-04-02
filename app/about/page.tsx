@@ -80,6 +80,19 @@ const AboutPage = () => {
           {/* Add more content as needed */}
         </div>
       </section>
+      <section>
+
+<div className="section2">
+
+<p>
+  hhhbhjbvhbhj
+</p>
+
+
+
+</div>
+
+      </section>
     </NoNavbarLayout>
   );
 };
