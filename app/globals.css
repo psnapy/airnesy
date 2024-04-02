@@ -121,7 +121,7 @@ body {
 
 
 .main-container5 {
-  @apply max-w-[1750px] mx-auto xl:px-0 px-4;
+  @apply max-w-[1850px] mx-auto xl:px-0 px-4;
 
   /* Remove padding on small screens */
   padding-left: 2;
