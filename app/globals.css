@@ -119,6 +119,16 @@ body {
 
 
 
+
+.main-container4 {
+  @apply max-w-[2000px] mx-auto xl:px-0 px-2;
+
+  /* Remove padding on small screens */
+  padding-left: 2;
+  padding-right: 2;
+}
+
+
 .div17 {
   @apply max-w-[520px] mx-auto xl:px-0 px-4;
 
@@ -136,7 +146,7 @@ body {
 
 .buttonn:hover {
   background-color: #ccc; /* Change background color on hover */
-  color: #fff; /* Change text color on hover */
+  color: #000; /* Change text color on hover */
 }
 
 
@@ -157,6 +167,20 @@ body {
 }
 
 
+
+.buttonnnn {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000; /* Default color */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect */
+}
+
+.buttonn:hover {
+  background-color: #ccc; /* Change background color on hover */
+  color: #000; /* Change text color on hover */
+}
 
 
 
