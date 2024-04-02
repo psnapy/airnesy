@@ -80,11 +80,12 @@ const AboutPage = () => {
           {/* Add more content as needed */}
         </div>
       </section>
-      <section>
 
-<div className="section2">
+      <section className="pt-8">
 
-<p>
+<div className="section2 pt-8">
+
+<p className="">
   hhhbhjbvhbhj
 </p>
 
