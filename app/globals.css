@@ -50,8 +50,8 @@ body {
 @media (max-width: 640px   ) {
   
   .container {
-    padding-left: 4rem; /* Remove left padding */
-    padding-right: 4rem; /* Remove right padding */
+    padding-left: 1rem; /* Remove left padding */
+    padding-right: 1rem; /* Remove right padding */
   }
 
 }
@@ -70,8 +70,8 @@ body {
   @apply max-w-[1720px] mx-auto xl:px-0 px-4;
 
 
-  padding-left: 2rem; /* Adjust as needed */
-  padding-right: 2rem; /* Adjust as needed */
+  padding-left: 1rem; /* Adjust as needed */
+  padding-right: 1rem; /* Adjust as needed */
 }
 
 
