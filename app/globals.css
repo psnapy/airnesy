@@ -143,11 +143,11 @@ body {
 
 
 .buttonnn {
-  background-color: #0000;
+  background-color: #000000;
   border-radius: 20px;
   padding: 10px 20px;
   text-decoration: none;
-  color: #000; /* Default color */
+  color: #fff; /* Default color */
   transition: background-color 0.3s, color 0.3s; /* Transition effect */
 }
 
