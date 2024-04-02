@@ -106,7 +106,7 @@ const AboutPage = () => {
 <div className="flex justify-center items-center">
   <Image
     className="rounded-xl"
-    src="/images/a.jpg"
+    src="/images/a.gif"
     alt="Right Image"
      // Adjust width as needed
     height={100} // Remove the height attribute or set it to null
