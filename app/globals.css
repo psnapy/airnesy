@@ -142,6 +142,23 @@ body {
 
 
 
+.buttonnn {
+  background-color: #0000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff; /* Default color */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect */
+}
+
+.buttonnn:hover {
+  background-color: #0e0d0d; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+
+
+
 
 .swiper-wrapper {
   @apply md:gap-2 gap-1 justify-between;

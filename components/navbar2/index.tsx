@@ -17,9 +17,15 @@ const Navbar: React.FC<NavbarProps> = async () => {
 </Link>
 </p>
          
+          <div className="pl-4">
+            <Link href="https://www.airnesy.com/">
+                <a className="buttonnn ">Try it out</a>
+              </Link>
+
+              </div>
         </div>
       </nav>
-   
+     
     </header>
   );
 };
