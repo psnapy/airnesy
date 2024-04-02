@@ -88,7 +88,7 @@ const AboutPage = () => {
       <section className="pt-8">
             <div className="pt-8">
               <div className="section2 pt-4">
-                <div className="flex justify-between">
+                <div className="flex justify-between  main-container4  ">
                   {/* Left Column */}
                   <div className="w-1/4">
                     <Image
@@ -100,41 +100,25 @@ const AboutPage = () => {
                   </div>
                   
                   {/* Center Column */}
-                  <div className="w-1/2 flex justify-between flex-col">
-                    <div className="flex justify-between">
-                      <Image
-                        src="/images/gif.gif" // Replace with path to top center image
-                        alt="Center Top Image"
-                        width={200} // Adjust width as needed
-                        height={200} // Adjust height as needed
-                      />
-                      <Image
-                       src="/images/gif.gif"  // Replace with path to top right image
-                        alt="Center Top Right Image"
-                        width={200} // Adjust width as needed
-                        height={200} // Adjust height as needed
-                      />
-                    </div>
-                    <div className="flex justify-between">
-                      <Image
-                         src="/images/gif.gif"  // Replace with path to bottom left image
-                        alt="Center Bottom Left Image"
-                        width={200} // Adjust width as needed
-                        height={200} // Adjust height as needed
-                      />
-                      <Image
-                        src="/images/gif.gif"  // Replace with path to bottom right image
-                        alt="Center Bottom Right Image"
-                        width={200} // Adjust width as needed
-                        height={200} // Adjust height as needed
-                      />
-                    </div>
+                  <div className="w-1/2 flex flex-col justify-center items-center">
+                    <Image
+                      src="/images/gif.gif"// Replace with path to top center image
+                      alt="Center Top Image"
+                      width={200} // Adjust width as needed
+                      height={200} // Adjust height as needed
+                    />
+                    <Image
+                   src="/images/gif.gif" // Replace with path to bottom center image
+                      alt="Center Bottom Image"
+                      width={200} // Adjust width as needed
+                      height={200} // Adjust height as needed
+                    />
                   </div>
                   
                   {/* Right Column */}
                   <div className="w-1/4">
                     <Image
-                     src="/images/gif.gif"  // Replace with path to right image
+                     src="/images/gif.gif" // Replace with path to right image
                       alt="Right Image"
                       width={200} // Adjust width as needed
                       height={200} // Adjust height as needed
@@ -144,8 +128,7 @@ const AboutPage = () => {
               </div>
             </div>
           </section>
-      
-    
+     
 
 
 
