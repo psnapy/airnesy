@@ -137,6 +137,14 @@ body {
 }
 
 
+
+@media (max-width: 640px) {
+  .navh {
+    border-bottom: none;
+  }
+}
+
+
 .div17 {
   @apply max-w-[500px] mx-auto xl:px-0 px-4;
 
